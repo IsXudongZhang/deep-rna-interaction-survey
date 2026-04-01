@@ -12,7 +12,7 @@
 
 3.  [Structure-based Linker Design](#structure-based-linker-design)
 
-
+4.  [RNA Language Model](#rna-language-model)
   
 
 
@@ -112,3 +112,5 @@
 | **2025 ICML** | **Equivariant 3D-conditional diffusion model for molecular linker design** | [Paper](https://www.nature.com/articles/s42256-024-00815-9)  [Code](https://github.com/igashov/DiffLinker)|
 
 </details>
+
+### RNA Language Model

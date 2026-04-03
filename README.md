@@ -13,6 +13,8 @@
 3.  [Structure-based Linker Design](#structure-based-linker-design)
 
 4.  [RNA Language Model](#rna-language-model)
+
+5.  [RNA Secondary Structure](#rna-secondary-structure)
   
 
 
@@ -114,3 +116,17 @@
 </details>
 
 ### RNA Language Model
+
+
+---
+
+### RNA Secondary Structure
+<details open>
+<summary><b>View Papers (Click to Expand)</b></summary>
+
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2011** | **ViennaRNA Package 2.0** | [Paper](https://link.springer.com/article/10.1186/1748-7188-6-26) |
+
+
+</details>

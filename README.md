@@ -127,6 +127,8 @@
 | Year & Venue | Title | Links | Description |
 | :--- | :--- | :--- | :--- |
 | **2011** | **ViennaRNA Package 2.0** | [Paper](https://link.springer.com/article/10.1186/1748-7188-6-26) |
-
+| **2022 Nucleic Acids Research** | **UFold: fast and accurate RNA secondary structure prediction with deep learning** | [Paper](https://academic.oup.com/nar/article/50/3/e14/6430845) |
+| **2005 JACS** | **RNA Structure Analysis at Single Nucleotide Resolution by Selective 2‘-Hydroxyl Acylation and Primer Extension (SHAPE)** | [Paper](https://pubs.acs.org/doi/10.1021/ja043822v) |
+| **2015 Nature** | **Structural imprints in vivo decode RNA regulatory mechanisms** | [Paper](https://www.nature.com/articles/nature14263) | icSHAPE |
 
 </details>

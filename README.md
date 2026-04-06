@@ -18,10 +18,16 @@
 
 
 ### RNA Language Model
+<details open>
+<summary><b>View Papers (Click to Expand)</b></summary>
 
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2025 Nature** | **ERNIE-RNA: an RNA language model with structure-enhanced representations** | [Paper](https://www.nature.com/articles/s41467-025-64972-0) |
+| **2025 arXiv** | **A Comparative Review of RNA Language Models** | [Paper](https://arxiv.org/pdf/2505.09087) | review \ preprint |
+| **2025 Communications Biology** | **BiRNA-BERT allows efficient RNA language modeling with adaptive tokenization** | [Paper](https://www.nature.com/articles/s42003-025-08982-0) |
 
-
-
+</details>
 
 
 ### RNA 2D Representation

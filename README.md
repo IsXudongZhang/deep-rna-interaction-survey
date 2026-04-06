@@ -7,7 +7,7 @@
 ## 📚 Contents
 1.  [RNA Language Model](#rna-language-model)
 
-2.  [RNA Secondary Structure](#rna-secondary-structure)
+2.  [RNA 2D Representation](#rna-2d-representation)
   
 3.  [RNA 3D Representation](#rna-3d-representation)
 
@@ -24,7 +24,7 @@
 
 
 
-### RNA Secondary Structure
+### RNA 2D Representation
 <details open>
 <summary><b>View Papers (Click to Expand)</b></summary>
 
@@ -46,6 +46,13 @@
 | Year & Venue | Title | Links | Description |
 | :--- | :--- | :--- | :--- |
 | **2024** | **Advances in the field of RNA 3D structure prediction and modeling, with purely theoretical approaches, and with the use of experimental data** | [Paper](https://www.cell.com/structure/fulltext/S0969-2126(24)00332-0) | review |
-
+| **2021 Nucleic Acids Research**|  **RCSB Protein Data Bank: powerful new tools for exploring 3D structures of biological macromolecules for basic and applied research and education in fundamental biology, biomedicine, biotechnology, bioengineering and energy sciences** |[Paper](https://academic.oup.com/nar/article/49/D1/D437/5992282)| dataset |
+| **2021 Science**| **Geometric deep learning of RNA structure**|[Paper](https://www.science.org/doi/10.1126/science.abe5650)|
+| **2024**| **gRNAde: Geometric Deep Learning for 3D RNA inverse design**|[Paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC11142113/)|
+| **2023 ncs** | **Evaluating native-like structures of RNA-protein complexes through the deep learning method**|[Paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC9958188/)|
+| **2021 NIPS** | **ATOM3D: Tasks On Molecules in Three Dimensions** | [Paper](https://arxiv.org/abs/2012.04035)|
+| **2021 Nature Method** | **Deciphering interaction fingerprints from protein molecular surfaces using geometric deep learning** | [Paper](https://www.nature.com/articles/s41592-019-0666-6)|
+| **2025** | **The prediction of RNA-small-molecule ligand binding affinity based on geometric deep learning** |[Paper](https://www.sciencedirect.com/science/article/abs/pii/S1476927125000271)|
+| **2025** | **The prediction of RNA-small molecule binding sites in RNA structures based on geometric deep learning**|[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0141813025038607)|
 
 </details>

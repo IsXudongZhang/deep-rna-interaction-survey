@@ -23,9 +23,13 @@
 
 | Year & Venue | Title | Links | Description |
 | :--- | :--- | :--- | :--- |
-| **2025 Nature** | **ERNIE-RNA: an RNA language model with structure-enhanced representations** | [Paper](https://www.nature.com/articles/s41467-025-64972-0) |
+| **2025 Nature Communications** | **ERNIE-RNA: an RNA language model with structure-enhanced representations** | [Paper](https://www.nature.com/articles/s41467-025-64972-0) |
 | **2025 arXiv** | **A Comparative Review of RNA Language Models** | [Paper](https://arxiv.org/pdf/2505.09087) | review \ preprint |
 | **2025 Communications Biology** | **BiRNA-BERT allows efficient RNA language modeling with adaptive tokenization** | [Paper](https://www.nature.com/articles/s42003-025-08982-0) |
+| **2024 Nature Communications** | **RNA language models predict mutations that improve RNA function** | [Paper](https://www.nature.com/articles/s41467-024-54812-y#Sec2) |
+| **2025 Nature Communications** | **RiNALMo: general-purpose RNA language models can generalize well on structure prediction tasks** | [Paper](https://www.nature.com/articles/s41467-025-60872-5) |
+| **2024 NeurIPS Proceedings** | **BEACON: Benchmark for Comprehensive RNA Tasks and Language Models** | [Paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/a8ea503d91320fcfe12cba61c8a6d285-Paper-Datasets_and_Benchmarks_Track.pdf) |
+| **2024 oxford academic** | **Multiple sequence alignment-based RNA language model and its application to structural inference** | [Paper](https://doi.org/10.1093/nar/gkad1031) |
 
 </details>
 

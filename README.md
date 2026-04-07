@@ -44,6 +44,9 @@
 | **2022 Nucleic Acids Research** | **UFold: fast and accurate RNA secondary structure prediction with deep learning** | [Paper](https://academic.oup.com/nar/article/50/3/e14/6430845) |
 | **2005 JACS** | **RNA Structure Analysis at Single Nucleotide Resolution by Selective 2‘-Hydroxyl Acylation and Primer Extension (SHAPE)** | [Paper](https://pubs.acs.org/doi/10.1021/ja043822v) |
 | **2015 Nature** | **Structural imprints in vivo decode RNA regulatory mechanisms** | [Paper](https://www.nature.com/articles/nature14263) | icSHAPE |
+| **2022 Nucleic Acids Research** | **UFold: fast and accurate RNA secondary structure prediction with deep learning**|[Paper](https://academic.oup.com/nar/article/50/3/e14/6430845)|
+| **2014 Nature**| **Genome-wide probing of RNA structure reveals active unfolding of mRNA structures in vivo**| [Paper](https://www.nature.com/articles/nature12894) |
+| **2020 Bioinformatics**| **Graph neural representational learning of RNA secondary structures for predicting RNA-protein interactions**| [Paper](https://academic.oup.com/bioinformatics/article/36/Supplement_1/i276/5870515) |
 
 </details>
 

@@ -11,6 +11,8 @@
   
 3.  [RNA 3D Representation](#rna-3d-representation)
 
+4.  [Small Molecule and Protein Representation](#small-molecule-and-protein-representation)
+
 
 
 ---
@@ -70,5 +72,19 @@
 | **2021 Nature Method** | **Deciphering interaction fingerprints from protein molecular surfaces using geometric deep learning** | [Paper](https://www.nature.com/articles/s41592-019-0666-6)|
 | **2025** | **The prediction of RNA-small-molecule ligand binding affinity based on geometric deep learning** |[Paper](https://www.sciencedirect.com/science/article/abs/pii/S1476927125000271)|
 | **2025** | **The prediction of RNA-small molecule binding sites in RNA structures based on geometric deep learning**|[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0141813025038607)|
+
+</details>
+
+
+###  Small Molecule and Protein Representation
+
+<details open>
+<summary><b>View Papers (Click to Expand)</b></summary>
+
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **1988** | **SMILES, a chemical language and information system. 1. Introduction to methodology and encoding rules** | [Paper](https://pubs.acs.org/doi/abs/10.1021/ci00057a005) |
+| **2010 JCIM**| **Extended-Connectivity Fingerprints**| [Paper](https://pubs.acs.org/doi/10.1021/ci100050t) |
+| **2020 arXiv** | **ChemBERTa: Large-Scale Self-Supervised Pretraining for Molecular Property Prediction**| [Paper](https://arxiv.org/abs/2010.09885) |
 
 </details>

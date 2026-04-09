@@ -13,6 +13,8 @@
 
 4.  [Small Molecule and Protein Representation](#small-molecule-and-protein-representation)
 
+5.  [RNA-Small Molecule Interaction Prediction](#rna-small-molecule-interaction-prediction)
+
 
 
 ---
@@ -104,5 +106,17 @@
 | **2025 Bioinformatics**| **DeepRSMA: a cross-fusion-based deep learning method for RNA–small molecule binding affinity prediction**| [Paper](https://doi.org/10.1093/bioinformatics/btae678) |
 | **2025 Nucleic Acids Research**| **RNAincoder: a deep learning-based encoder for RNA and RNA-associated interaction**| [Paper](https://doi.org/10.1093/nar/gkad404) |
 | **2021 Nature**| **Highly Accurate Protein Structure Prediction with AlphaFold**| [Paper](https://www.nature.com/articles/s41586-021-03819-2) |
+
+</details>
+
+
+### RNA-Small Molecule Interaction Prediction
+
+<details open>
+<summary><b>View Papers (Click to Expand)</b></summary>
+
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+
 
 </details>

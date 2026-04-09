@@ -1,6 +1,6 @@
 # Structure-based Molecule Generation (SBMG)
 
-**Structure-based molecule generation (SBMG)** involves using three-dimensional structural information of biological targets, such as protein binding pockets, to **generate, optimize or link small molecules** for drug development. Unlike traditional ligand-based approaches, SBMG methods are **target-aware**, integrating the spatial and chemical characteristics of binding sites into the generation process. This approach enables the de novo creation of novel compounds, the optimization of known lead compounds, and the design of linkers for complex molecules, such as PROTACs. Advancements in **deep generative models, molecular simulation, and structural biology** have made SBMG a pivotal component of modern **structure-based drug discovery (SBDD)**.
+**Structure-based molecule generation (SBMG)** involves using three-dimensional structural information of biological targets, such as protein binding pockets, to **generate, optimize or link small molecules** for drug development. Unlike traditional ligand-based approaches, SBMG methods are **target-aware**, integrating the spatial and chemical characteristics of binding sites into the generation process. This approach enables the de novo creation of novel compounds, the optimization of known lead compounds, 和 the design of linkers for complex molecules, such as PROTACs. Advancements in **deep generative models, molecular simulation, 和 structural biology** have made SBMG a pivotal component of modern **structure-based drug discovery (SBDD)**.
 
 ---
 
@@ -38,6 +38,9 @@
 | **2023 bioRXiv**| **UNI-RNA: UNIVERSAL PRE-TRAINED MODELS REVOLUTIONIZE RNA RESEARCH**| [Paper](https://www.biorxiv.org/content/10.1101/2023.07.11.548588v1.full) |
 | **2024 BIB**| **Self-supervised learning on millions of primary RNA sequences from 72 vertebrates improves sequence-based RNA splicing prediction**| [Paper](https://academic.oup.com/bib/article/25/3/bbae163/7644137) |
 | **2024 Nature Machine Intelligence**|  **Multi-purpose RNA language modelling with motif-aware pretraining and type-guided fine-tuning** | [Paper](https://www.nature.com/articles/s42256-024-00836-4) |
+| **2018 Bioinformatics**|  **Convolutional neural networks for classification of alignments of non-coding RNA sequences** | [Paper](https://doi.org/10.1093/bioinformatics/bty228) |
+| **2025 科学技术与工程**|  **基于四元数的 RNA 特征提取方法.** | [Paper](http://dx.doi.org/10.12404/j.issn.1671-1815.2408787) |
+| **2025 Bioinformatics**|  **From nucleotides to numbers: a comprehensive review of RNA feature extraction methods for computational modelling** | [Paper](https://doi.org/10.1093/bib/bbaf701) |
 
 </details>
 
@@ -106,6 +109,7 @@
 | **2025 Bioinformatics**| **DeepRSMA: a cross-fusion-based deep learning method for RNA–small molecule binding affinity prediction**| [Paper](https://doi.org/10.1093/bioinformatics/btae678) |
 | **2025 Nucleic Acids Research**| **RNAincoder: a deep learning-based encoder for RNA and RNA-associated interaction**| [Paper](https://doi.org/10.1093/nar/gkad404) |
 | **2021 Nature**| **Highly Accurate Protein Structure Prediction with AlphaFold**| [Paper](https://www.nature.com/articles/s41586-021-03819-2) |
+| **2015 Nature**| **Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning**| [Paper](https://www.nature.com/articles/nbt.3300) |
 
 </details>
 

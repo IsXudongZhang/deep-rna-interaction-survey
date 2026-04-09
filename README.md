@@ -35,6 +35,7 @@
 | **2022 arXiv**| **Interpretable RNA Foundation Model from Unannotated Data for Highly Accurate RNA Structure and Function Predictions**| [Paper](https://arxiv.org/abs/2204.00300) | RNA-FM|
 | **2023 bioRXiv**| **UNI-RNA: UNIVERSAL PRE-TRAINED MODELS REVOLUTIONIZE RNA RESEARCH**| [Paper](https://www.biorxiv.org/content/10.1101/2023.07.11.548588v1.full) |
 | **2024 BIB**| **Self-supervised learning on millions of primary RNA sequences from 72 vertebrates improves sequence-based RNA splicing prediction**| [Paper](https://academic.oup.com/bib/article/25/3/bbae163/7644137) |
+| **2024 Nature Machine Intelligence**|  **Multi-purpose RNA language modelling with motif-aware pretraining and type-guided fine-tuning** | [Paper](https://www.nature.com/articles/s42256-024-00836-4) |
 
 </details>
 
@@ -89,6 +90,7 @@
 | **2020 arXiv** | **Molecular representation learning with language models and domain-relevant auxiliary tasks**| [Paper](https://arxiv.org/abs/2011.13230) |
 | **2025 Nature Biotechnology**| **Predicting small molecule–RNA interactions without RNA tertiary structures**| [Paper](https://www.nature.com/articles/s41587-025-02942-z) |
 | **2023 Science**| **Evolutionary-scale prediction of atomic-level protein structure with a language model**| [Paper](https://www.science.org/doi/10.1126/science.ade2574) |
+| **2025 Science**| **Simulating 500 million years of evolution with a language model**| [Paper](https://www.science.org/doi/10.1126/science.ads0018) |
 | **2022 TPAMI**| **ProtTrans: Toward Understanding the Language of Life Through Self-Supervised Learning**| [Paper](https://ieeexplore.ieee.org/document/9477085) | Arichtecture|
 | **2024 NAR**| **EquiPNAS: improved protein–nucleic acid binding site prediction using protein-language-model-informed equivariant deep graph neural networks**| [Paper](https://academic.oup.com/nar/article/52/5/e27/7590918) |
 | **2025 Communications Biology**| **RNA-protein interaction prediction using network-guided deep learning**| [Paper](https://www.nature.com/articles/s42003-025-07694-9) |
@@ -101,5 +103,6 @@
 | **2025 Briefings in Bioinformatics**| **Reliable method for predicting the binding affinity of RNA-small molecule interactions using machine learning**| [Paper](https://doi.org/10.1093/bib/bbae002) |
 | **2025 Bioinformatics**| **DeepRSMA: a cross-fusion-based deep learning method for RNA–small molecule binding affinity prediction**| [Paper](https://doi.org/10.1093/bioinformatics/btae678) |
 | **2025 Nucleic Acids Research**| **RNAincoder: a deep learning-based encoder for RNA and RNA-associated interaction**| [Paper](https://doi.org/10.1093/nar/gkad404) |
+| **2021 Nature**| **Highly Accurate Protein Structure Prediction with AlphaFold**| [Paper](https://www.nature.com/articles/s41586-021-03819-2) |
 
 </details>

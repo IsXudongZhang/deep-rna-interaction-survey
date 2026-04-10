@@ -59,9 +59,8 @@
 | **2022 Nucleic Acids Research** | **UFold: fast and accurate RNA secondary structure prediction with deep learning**|[Paper](https://academic.oup.com/nar/article/50/3/e14/6430845)|
 | **2014 Nature**| **Genome-wide probing of RNA structure reveals active unfolding of mRNA structures in vivo**| [Paper](https://www.nature.com/articles/nature12894) |
 | **2020 Bioinformatics**| **Graph neural representational learning of RNA secondary structures for predicting RNA-protein interactions**| [Paper](https://academic.oup.com/bioinformatics/article/36/Supplement_1/i276/5870515) |
-
-</details>
-
+| **2025 Nature Communications** | **Deep generalizable prediction of RNA secondary structure via base pair motif energy** | [Paper](https://www.nature.com/articles/s41467-025-60048-1) | 引入碱基对基元能量模型，显著提升了深度学习模型在未知 RNA 家族上的泛化预测能力。 |
+| **2024 Communications Biology** | **Accurate prediction of RNA secondary structure including pseudoknots through solving minimum-cost flow with learned potential** | [Paper](https://www.nature.com/articles/s42003-024-05952-w) | 利用最小费用流算法与学习势能函数，实现了包含假结（Pseudoknots）的高精度二级结构预测。 |
 
 ### RNA 3D Representation
 
@@ -128,7 +127,9 @@
 | **2018 Nature Reviews Drug Discovery**| **Principles for targeting RNA with drug-like small molecules**| [Paper](https://www.nature.com/articles/nrd.2018.93) | review |
 | **2025 NCS**| **What’s so hard about RNA-targeting drug discovery?**| [Paper](https://www.nature.com/articles/s43588-025-00853-2) |
 | **2025 JMB**| **Identifying RNA-small Molecule Binding Sites Using Geometric Deep Learning with Language Models**| [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0022283625000762) | benchmark |
-
+| **2025 Briefings in Bioinformatics** | **MVRBind: multi-view learning for RNA-small molecule binding site prediction** | [Paper](https://academic.oup.com/bib/article/26/5/bbaf489/8260790) | MVRBind：采用多视图学习框架整合多维特征，专门用于高精度预测 RNA 上的小分子结合位点。 |
+| **2025 Nature Computational Science** | **RNA–ligand interaction scoring via data perturbation and augmentation modeling** | [Paper](https://www.nature.com/articles/s43588-025-00820-x) | (RNAsmol) 通过数据扰动与增强建模优化亲和力打分，系统性解决了小分子-RNA 交互数据稀缺的问题。 |
+| **2024 Nature Communications** | **sChemNET: a deep learning framework for predicting small molecules targeting microRNA function** | [Paper](https://www.nature.com/articles/s41467-024-49813-w) | |
 
 
 </details>

@@ -158,6 +158,21 @@ This repository serves as a literature survey and reference library for **RNA-re
 | **2021 BIB**| **Protein–RNA interaction prediction with deep learning: structure matters**| [Paper](https://doi.org/10.1093/bib/bbab540) | |
 | **2022 Bioinformatics Advances**| **Prediction of RNA–protein interactions using a nucleotide language model**| [Paper](https://doi.org/10.1093/bioadv/vbac023) | |
 | **2021 BIB**| **DeepDISOBind: accurate prediction of RNA-, DNA- and protein-binding intrinsically disordered residues with deep multi-task learning**| [Paper](https://doi.org/10.1093/bib/bbab521) | |
+| **2023 BIB**| **A systematic benchmark of machine learning methods for protein–RNA interaction prediction**| [Paper](https://doi.org/10.1093/bib/bbad307) | |
+[Paper](https://doi.org/10.1093/bib/bbab521) | |
+| **2023 Computational and Structural Biotechnology Journal**| **ncRPI-LGAT: Prediction of ncRNA-protein interactions with line graph attention network framework**| [Paper](https://www.sciencedirect.com/science/article/pii/S2001037023001241) | |
+| **2024 NAR**| **Prediction of protein-RNA interactions from single-cell transcriptomic data**| [Paper](https://doi.org/10.1093/nar/gkae076) | |
+| **2024 IJBM**| **PRA-Pred: Structure-based prediction of protein-RNA binding affinity**| [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0141813024002939) | |
+| **2025 Communications Biology**| **PRA-Pred: Structure-based prediction of protein-RNA binding affinity**| [Paper](https://www.nature.com/articles/s42003-025-07694-9) | |
+| **2025 BIB**| **Graph-RPI: predicting RNA–protein interactions via graph autoencoder and self-supervised learning strategies**| [Paper](https://doi.org/10.1093/bib/bbaf292) | |
+| **2025 Communications Biology**| **PaRPI predicts RNA-Protein interactions from cross-protocol and cross-batch RNA-binding protein datasets**| [Paper](https://www.nature.com/articles/s42003-025-08807-0) | |
+| **2025 JCIM**| **Transfer Learning for Predicting ncRNA-Protein Interactions**| [Paper](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.5c00914) | |
+| **2025 PLOS One**| **RPIPLM: Prediction of ncRNA-protein interaction by post-training a dual-tower pretrained biological model with supervised contrastive learning**| [Paper](https://doi.org/10.1371/journal.pone.0329174) | |
+| **2025 JCIM**| **SeqMG-RPI: A Sequence-Based Framework Integrating Multi-Scale RNA Features and Protein Graphs for RNA-Protein Interaction Prediction**| [Paper](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.5c00176) | |
+| **2025 Patterns**| **A deep learning model for characterizing protein-RNA interactions from sequences at single-base resolution**| [Paper](https://www.cell.com/patterns/fulltext/S2666-3899(24)00322-2) | |
+| **2025 NAR**| **Base-resolution binding profile prediction of proteins on RNAs with deep learning**| [Paper](https://doi.org/10.1093/nar/gkaf748) | |
+| **2026 bioRxiv**| **Augmented prediction of multi-species protein–RNA interactions using evolutionary conservation of RNA-binding proteins**| [Paper](https://www.biorxiv.org/content/10.1101/2025.09.27.678913v2.abstract) | |
+| **2026 arXiv**| **ZeroFold: Protein-RNA Binding Affinity Predictions from Pre-Structural Embeddings**| [Paper](https://arxiv.org/abs/2603.23583) | |
 
 
 </details>

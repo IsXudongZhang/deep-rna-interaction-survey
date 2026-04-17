@@ -1,27 +1,27 @@
-# Structure-based Molecule Generation (SBMG)
+# RNA Interaction Literature Survey
 
-**Structure-based molecule generation (SBMG)** involves using three-dimensional structural information of biological targets, such as protein binding pockets, to **generate, optimize or link small molecules** for drug development. Unlike traditional ligand-based approaches, SBMG methods are **target-aware**, integrating the spatial and chemical characteristics of binding sites into the generation process. This approach enables the de novo creation of novel compounds, the optimization of known lead compounds, 和 the design of linkers for complex molecules, such as PROTACs. Advancements in **deep generative models, molecular simulation, 和 structural biology** have made SBMG a pivotal component of modern **structure-based drug discovery (SBDD)**.
+This repository serves as a literature survey and reference library for **RNA-related molecular interactions**, accompanying an ongoing review of methods and studies on RNA interactions with **proteins, small molecules, and other biomolecular modalities**. It is designed to organize representative papers by topic, covering **RNA representation methods, structural modeling, benchmark datasets, evaluation strategies, and interaction prediction tasks**, and to provide a structured entry point for understanding the broader landscape of **RNA interaction research and RNA-targeted discovery**.
 
 ---
 
 ## 📚 Contents
-1.  [RNA Language Model](#rna-language-model)
+1.  [Biomolecular Representation Learning](#molecular-representation-learning)
+    - [RNA Language Model](#rna-language-model)
+    - [RNA 2D Representation](#rna-2d-representation)
+    - [RNA 3D Representation](#rna-3d-representation)
+    - [Small Molecule and Protein Representation](#small-molecule-and-protein-representation)
 
-2.  [RNA 2D Representation](#rna-2d-representation)
-  
-3.  [RNA 3D Representation](#rna-3d-representation)
+2.  [RNA-Small Molecule Interaction Prediction](#rna-small-molecule-interaction-prediction)
 
-4.  [Small Molecule and Protein Representation](#small-molecule-and-protein-representation)
-
-5.  [RNA-Small Molecule Interaction Prediction](#rna-small-molecule-interaction-prediction)
-
-6.  [RNA-Protein Interaction Prediction](#rna-protein-interaction-prediction)
+3.  [RNA-Protein Interaction Prediction](#rna-protein-interaction-prediction)
 
 
 
 ---
 
 
+
+## Molecular Representation Learning
 
 ### RNA Language Model
 <details open>
@@ -64,6 +64,8 @@
 | **2025 Nature Communications** | **Deep generalizable prediction of RNA secondary structure via base pair motif energy** | [Paper](https://www.nature.com/articles/s41467-025-60048-1) | 引入碱基对基元能量模型，显著提升了深度学习模型在未知 RNA 家族上的泛化预测能力。 |
 | **2024 Communications Biology** | **Accurate prediction of RNA secondary structure including pseudoknots through solving minimum-cost flow with learned potential** | [Paper](https://www.nature.com/articles/s42003-024-05952-w) | 利用最小费用流算法与学习势能函数，实现了包含假结（Pseudoknots）的高精度二级结构预测。 |
 
+</details>
+
 ### RNA 3D Representation
 
 <details open>
@@ -84,7 +86,7 @@
 </details>
 
 
-###  Small Molecule and Protein Representation
+### Small Molecule and Protein Representation
 
 <details open>
 <summary><b>View Papers (Click to Expand)</b></summary>
@@ -116,7 +118,7 @@
 </details>
 
 
-### RNA-Small Molecule Interaction Prediction
+## RNA-Small Molecule Interaction Prediction
 
 <details open>
 <summary><b>View Papers (Click to Expand)</b></summary>
@@ -136,7 +138,7 @@
 
 
 
-### RNA-Protein Interaction Prediction
+## RNA-Protein Interaction Prediction
 
 <details open>
 <summary><b>View Papers (Click to Expand)</b></summary>
@@ -144,7 +146,18 @@
 | Year & Venue | Title | Links | Description |
 | :--- | :--- | :--- | :--- |
 | **2020 Cell**| **How RNA-Binding Proteins Interact with RNA: Molecules and Mechanisms**| [Paper](https://www.cell.com/molecular-cell/fulltext/S1097-2765(20)30159-3) | review |
-
+| **2019 Nature Methods**| **Methods to study RNA–protein interactions**| [Paper](https://www.nature.com/articles/s41592-019-0330-1) | review |
+| **2025 Communications Biology**| **RNA-protein interaction prediction using network-guided deep learning**| [Paper](https://www.nature.com/articles/s42003-025-07694-9)  | |
+| **2025 Interdiscip Sci Comput Life Sci**| **NPI-HGNN: A Heterogeneous Graph Neural Network-Based Approach for Predicting ncRNA-Protein Interactions**| [Paper](https://link.springer.com/article/10.1007/s12539-025-00689-4#citeas)  | |
+| **2022 BIB**| **Predicting potential interactions between lncRNAs and proteins via combined graph auto-encoder methods**| [Paper](https://doi.org/10.1093/bib/bbac527) | ||
+| **2023 Computers in Biology and Medicine**| **MHAM-NPI: Predicting ncRNA-protein interactions based on multi-head attention mechanism**| [Paper](https://www.sciencedirect.com/science/article/abs/pii/S001048252300608X) |  || 
+| **2024 Computational and Structural Biotechnology Journal**| **RNA-protein interaction prediction without high-throughput data: An overview and benchmark of in silico tools**| [Paper](https://www.sciencedirect.com/science/article/pii/S2001037024003866) | review |
+| **2025 TNNLS**| **RPI-GGCN: Prediction of RNA–Protein Interaction Based on Interpretability Gated Graph Convolution Neural Network and Co-Regularized Variational Autoencoders**| [Paper](https://ieeexplore.ieee.org/abstract/document/10520920) | |
+| **2019 NC**| **A deep learning framework to predict binding preference of RNA constituents on protein surface**| [Paper](https://www.nature.com/articles/s41467-019-12920-0) | |
+| **2020 NAR**| **DeepCLIP: predicting the effect of mutations on protein–RNA binding with deep learning**| [Paper](https://doi.org/10.1093/nar/gkaa530) | |
+| **2021 BIB**| **Protein–RNA interaction prediction with deep learning: structure matters**| [Paper](https://doi.org/10.1093/bib/bbab540) | |
+| **2022 Bioinformatics Advances**| **Prediction of RNA–protein interactions using a nucleotide language model**| [Paper](https://doi.org/10.1093/bioadv/vbac023) | |
+| **2021 BIB**| **DeepDISOBind: accurate prediction of RNA-, DNA- and protein-binding intrinsically disordered residues with deep multi-task learning**| [Paper](https://doi.org/10.1093/bib/bbab521) | |
 
 
 </details>

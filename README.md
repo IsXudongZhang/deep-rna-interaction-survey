@@ -109,7 +109,6 @@ This repository serves as a literature survey and reference library for **RNA-re
 | **2024 Biorxiv**| **Bridging biomolecular modalities for knowledge transfer in bio-language models**| [Paper](https://doi.org/10.1101/2024.10.15.618385) |
 | **2025 Journal of Chemical Theory and Computation**| **Advances and Challenges in Machine Learning for RNA-Small Molecule Interaction Modeling: Review**| [Paper](https://pubs.acs.org/doi/abs/10.1021/acs.jctc.5c00973) |  review  |
 | **2026 Nature Biotechnology**| **Predicting small molecule–RNA interactions without RNA tertiary structures**| [Paper](https://www.nature.com/articles/s41587-025-02942-z) |
-| **2025 Briefings in Bioinformatics**| **Reliable method for predicting the binding affinity of RNA-small molecule interactions using machine learning**| [Paper](https://doi.org/10.1093/bib/bbae002) |
 | **2025 Bioinformatics**| **DeepRSMA: a cross-fusion-based deep learning method for RNA–small molecule binding affinity prediction**| [Paper](https://doi.org/10.1093/bioinformatics/btae678) |
 | **2025 Nucleic Acids Research**| **RNAincoder: a deep learning-based encoder for RNA and RNA-associated interaction**| [Paper](https://doi.org/10.1093/nar/gkad404) |
 | **2021 Nature**| **Highly Accurate Protein Structure Prediction with AlphaFold**| [Paper](https://www.nature.com/articles/s41586-021-03819-2) |
@@ -123,17 +122,24 @@ This repository serves as a literature survey and reference library for **RNA-re
 <details open>
 <summary><b>View Papers (Click to Expand)</b></summary>
 
-### 2026 
+### 2026
 | Year & Venue | Title | Links | Description |
 | :--- | :--- | :--- | :--- |
+| **2026 Nat. Biotechnol.** | **Predicting small molecule–RNA interactions without RNA tertiary structures** | [Paper](https://www.nature.com/articles/s41587-025-02942-z) | **SMRTnet** predicts small molecule–RNA interactions without requiring RNA tertiary structures, enabling scalable screening for RNA-targeted discovery. |
+| **2026 Brief. Bioinform.** | **CoBRA: compound binding site prediction using RNA language model** | [Paper](https://academic.oup.com/bib/article/27/1/bbaf713/8419945) | **CoBRA** uses an RNA language model for RNA–compound binding-site prediction and is designed to work without explicit tertiary-structure input. |
+| **2026 J. Chem. Inf. Model.** | **DeepMIF: A Multiview Interactive Fusion-Based Deep Learning Method for RNA–Small Molecule Binding Affinity Prediction** | [Paper](https://pubs.acs.org/doi/10.1021/acs.jcim.5c02946) | **DeepMIF** focuses on RNA–small molecule binding affinity prediction through multiview interactive fusion of RNA and ligand representations. |
+| **2026 J. Cheminform.** | **DeepRNA-DTI: a deep learning approach for RNA-compound interaction prediction with binding site interpretability** | [Paper](https://link.springer.com/article/10.1186/s13321-025-01132-y) | **DeepRNA-DTI** is a sequence-based deep learning framework for RNA–compound interaction prediction with interpretable binding-site outputs. |
+
 
 ### 2025
 | Year & Venue | Title | Links | Description |
 | :--- | :--- | :--- | :--- |
-| **2025 NCS**| **What’s so hard about RNA-targeting drug discovery?**| [Paper](https://www.nature.com/articles/s43588-025-00853-2) |
-| **2025 JMB**| **Identifying RNA-small Molecule Binding Sites Using Geometric Deep Learning with Language Models**| [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0022283625000762) | benchmark |
-| **2025 Briefings in Bioinformatics** | **MVRBind: multi-view learning for RNA-small molecule binding site prediction** | [Paper](https://academic.oup.com/bib/article/26/5/bbaf489/8260790) | MVRBind：采用多视图学习框架整合多维特征，专门用于高精度预测 RNA 上的小分子结合位点。 |
-| **2025 Nature Computational Science** | **RNA–ligand interaction scoring via data perturbation and augmentation modeling** | [Paper](https://www.nature.com/articles/s43588-025-00820-x) | (RNAsmol) 通过数据扰动与增强建模优化亲和力打分，系统性解决了小分子-RNA 交互数据稀缺的问题。 |
+| **2025 Nat. Comput. Sci.** | **What’s so hard about RNA-targeting drug discovery?** | [Paper](https://www.nature.com/articles/s43588-025-00853-2) | A commentary discussing major bottlenecks in RNA-targeting drug discovery, including limited data, evaluation challenges, and generalization issues. |
+| **2025 J. Mol. Biol.** | **Identifying RNA-small Molecule Binding Sites Using Geometric Deep Learning with Language Models** | [Paper](https://www.sciencedirect.com/science/article/pii/S0022283625000762) | **RNABind** combines geometric deep learning with RNA language-model embeddings for RNA–small molecule binding-site prediction. |
+| **2025 Brief. Bioinform.** | **MVRBind: multi-view learning for RNA-small molecule binding site prediction** | [Paper](https://academic.oup.com/bib/article/26/5/bbaf489/8260790) | **MVRBind** integrates multiple structural views to improve RNA–small molecule binding-site prediction accuracy. |
+| **2025 Nat. Comput. Sci.** | **RNA–ligand interaction scoring via data perturbation and augmentation modeling** | [Paper](https://www.nature.com/articles/s43588-025-00820-x) | **RNAsmol** improves RNA–ligand interaction scoring through data perturbation and augmentation to address data scarcity. |
+| **2025 J. Chem. Inf. Model.** | **GATRsite: RNA–Ligand Binding Site Prediction Using Graph Attention Convolution Network and Pre-trained RNA Language Model** | [Paper](https://pubs.acs.org/doi/10.1021/acs.jcim.5c00605) | **GATRsite** combines graph attention with a pretrained RNA language model for RNA–ligand binding-site prediction. |
+| **2025 Brief. Bioinform.** | **DistRMI: a deep distance-aware neural network for explainable RNA loop motif-small molecule interaction prediction** | [Paper](https://academic.oup.com/bib/article/26/6/bbaf660/8375362) | **DistRMI** targets RNA loop motif–small molecule interaction prediction with distance-aware modeling and interpretability. |
 
 
 
@@ -141,31 +147,35 @@ This repository serves as a literature survey and reference library for **RNA-re
 | Year & Venue | Title | Links | Description |
 | :--- | :--- | :--- | :--- |
 | **2024 Nature Communications** | **sChemNET: a deep learning framework for predicting small molecules targeting microRNA function** | [Paper](https://www.nature.com/articles/s41467-024-49813-w) |
-
+| **2024 JBHI**| **MultiModRLBP: A Deep Learning Approach for Multi-Modal RNA-Small Molecule Ligand Binding Sites Prediction**| [Paper](https://ieeexplore.ieee.org/abstract/document/10530045) |
+| **2024 Bioinformatics**| **DeepRSMA: a cross-fusion-based deep learning method for RNA–small molecule binding affinity prediction**| [Paper](https://doi.org/10.1093/bioinformatics/btae678) |
+| **2024 JCTC**| **SPRank─A Knowledge-Based Scoring Function for RNA-Ligand Pose Prediction and Virtual Screening**| [Paper](https://pubs.acs.org/doi/abs/10.1021/acs.jctc.4c00681) |
+| **2024 Bioinformatics** | **DeepRSMA: a cross-fusion-based deep learning method for RNA-small molecule binding affinity prediction** | [Paper](https://academic.oup.com/bioinformatics/article/40/12/btae678/7900291) | **DeepRSMA** uses cross-fusion and cross-attention to model fine-grained RNA and ligand features for binding-affinity prediction. |
+| **2024 Brief. Bioinform.** | **Reliable method for predicting the binding affinity of RNA-small molecule interactions using machine learning** | [Paper](https://academic.oup.com/bib/article/25/2/bbae002/7584787) | A machine-learning framework for RNA–small molecule binding-affinity prediction, with an emphasis on robustness across RNA subtypes. |
+| **2024 Nat. Commun.** | **Identifying small-molecules binding sites in RNA conformational ensembles with SHAMAN** | [Paper](https://www.nature.com/articles/s41467-024-49638-7) | **SHAMAN** identifies small-molecule binding sites from RNA conformational ensembles, highlighting the role of RNA dynamics in ligand recognition. |
+| **2024 J. Chem. Inf. Model.** | **A Machine Learning Method for RNA–Small Molecule Binding Preference Prediction** | [Paper](https://pubs.acs.org/doi/10.1021/acs.jcim.4c01324) | A machine-learning method for RNA–small molecule binding-preference prediction at the RNA–ligand pair level. |
 
 
 
 ### 2023 
 | Year & Venue | Title | Links | Description |
 | :--- | :--- | :--- | :--- |
-| **2023 BIB**| **RLBind: a deep learning method to predict RNA–ligand binding sites**| [Paper](https://doi.org/10.1093/bib/bbac486) |
-| **2023 BIB**| **Structural interaction fingerprints and machine learning for predicting and explaining binding of small molecule ligands to RNA**| [Paper](https://doi.org/10.1093/bib/bbad187) |
-| **2024 BIB**| **Reliable method for predicting the binding affinity of RNA-small molecule interactions using machine learning**| [Paper](https://doi.org/10.1093/bib/bbae002) |
-| **2024 JBHI**| **MultiModRLBP: A Deep Learning Approach for Multi-Modal RNA-Small Molecule Ligand Binding Sites Prediction**| [Paper](https://ieeexplore.ieee.org/abstract/document/10530045) |
-| **2024 Bioinformatics**| **DeepRSMA: a cross-fusion-based deep learning method for RNA–small molecule binding affinity prediction**| [Paper](https://doi.org/10.1093/bioinformatics/btae678) |
-| **2024 JCIM**| **A Machine Learning Method for RNA–Small Molecule Binding Preference Prediction**| [Paper](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.4c01324) |
-| **2024 NC**| **Identifying small-molecules binding sites in RNA conformational ensembles with SHAMAN**| [Paper](https://www.nature.com/articles/s41467-024-49638-7) |
-| **2024 JCTC**| **SPRank─A Knowledge-Based Scoring Function for RNA-Ligand Pose Prediction and Virtual Screening**| [Paper](https://pubs.acs.org/doi/abs/10.1021/acs.jctc.4c00681) |
+| **2023 Brief. Bioinform.** | **RLBind: a deep learning method to predict RNA–ligand binding sites** | [Paper](https://academic.oup.com/bib/article/24/1/bbac486/6832814) | **RLBind** is a deep learning approach for RNA–ligand binding-site prediction using global sequence/structure features and local nucleotide context. |
+| **2023 Brief. Bioinform.** | **Structural interaction fingerprints and machine learning for predicting and explaining binding of small molecule ligands to RNA** | [Paper](https://academic.oup.com/bib/article/24/4/bbad187/7171416) | This study uses structural interaction fingerprints and machine learning to predict and explain RNA–small molecule binding. |
+
 
 
 ### 2022 and Earlier 
 | Year & Venue | Title | Links | Description |
 | :--- | :--- | :--- | :--- |
 | **2022 Nature Reviews Drug Discovery**| **Targeting RNA structures with small molecules**| [Paper](https://www.nature.com/articles/s41573-022-00521-4) | review |
-| **2022 J Cheminform**| **Machine learning approaches to optimize small-molecule inhibitors for RNA targeting**| [Paper](https://link.springer.com/article/10.1186/s13321-022-00583-x) | |
 | **2022 NeurIPS workshop**| **Predicting Ligand-RNA Binding Using E3-Equivariant Network and Pretraining**| [Paper](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.mlsb.io/papers_2022/Predicting_Ligand_RNA_Binding_Using_E3_Equivariant_Network_and_Pretraining.pdf) | |
 | **2021 Bioinformatics**| **Recognition of small molecule–RNA binding sites using RNA sequence and structure**| [Paper](https://academic.oup.com/bioinformatics/article/37/1/36/6069564) |
 | **2018 Nature Reviews Drug Discovery**| **Principles for targeting RNA with drug-like small molecules**| [Paper](https://www.nature.com/articles/nrd.2018.93) | review |
+| **2022 J. Cheminform.** | **Machine learning approaches to optimize small-molecule inhibitors for RNA targeting** | [Paper](https://link.springer.com/article/10.1186/s13321-022-00583-x) | A machine-learning study on optimizing RNA-targeting small-molecule inhibitors, relevant to RNA–small molecule screening and design. |
+| **2022 MLSB Workshop** | **Predicting Ligand–RNA Binding Using E3-Equivariant Network and Pretraining** | [Paper](https://www.mlsb.io/papers_2022/Predicting_Ligand_RNA_Binding_Using_E3_Equivariant_Network_and_Pretraining.pdf) | A workshop paper that applies E3-equivariant modeling and pretraining to ligand–RNA binding prediction. |
+
+
 
 </details>
 

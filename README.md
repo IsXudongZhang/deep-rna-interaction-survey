@@ -143,6 +143,13 @@ This repository serves as a literature survey and reference library for **RNA-re
 <details open>
 <summary><b>View Papers (Click to Expand)</b></summary>
 
+#### 2026 
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2026 bioRxiv**| **Augmented prediction of multi-species protein–RNA interactions using evolutionary conservation of RNA-binding proteins**| [Paper](https://www.biorxiv.org/content/10.1101/2025.09.27.678913v2.abstract) | |
+| **2026 arXiv**| **ZeroFold: Protein-RNA Binding Affinity Predictions from Pre-Structural Embeddings**| [Paper](https://arxiv.org/abs/2603.23583) | |
+
+
 | Year & Venue | Title | Links | Description |
 | :--- | :--- | :--- | :--- |
 | **2020 Cell**| **How RNA-Binding Proteins Interact with RNA: Molecules and Mechanisms**| [Paper](https://www.cell.com/molecular-cell/fulltext/S1097-2765(20)30159-3) | review |
@@ -170,8 +177,7 @@ This repository serves as a literature survey and reference library for **RNA-re
 | **2025 JCIM**| **SeqMG-RPI: A Sequence-Based Framework Integrating Multi-Scale RNA Features and Protein Graphs for RNA-Protein Interaction Prediction**| [Paper](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.5c00176) | |
 | **2025 Patterns**| **A deep learning model for characterizing protein-RNA interactions from sequences at single-base resolution**| [Paper](https://www.cell.com/patterns/fulltext/S2666-3899(24)00322-2) | |
 | **2025 NAR**| **Base-resolution binding profile prediction of proteins on RNAs with deep learning**| [Paper](https://doi.org/10.1093/nar/gkaf748) | |
-| **2026 bioRxiv**| **Augmented prediction of multi-species protein–RNA interactions using evolutionary conservation of RNA-binding proteins**| [Paper](https://www.biorxiv.org/content/10.1101/2025.09.27.678913v2.abstract) | |
-| **2026 arXiv**| **ZeroFold: Protein-RNA Binding Affinity Predictions from Pre-Structural Embeddings**| [Paper](https://arxiv.org/abs/2603.23583) | |
+
 
 
 </details>

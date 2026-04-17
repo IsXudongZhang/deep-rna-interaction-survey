@@ -235,4 +235,52 @@ This repository serves as a literature survey and reference library for **RNA-re
 | **2019 Nature Methods**| **Methods to study RNA–protein interactions**| [Paper](https://www.nature.com/articles/s41592-019-0330-1) | review |
 | **2019 NC**| **A deep learning framework to predict binding preference of RNA constituents on protein surface**| [Paper](https://www.nature.com/articles/s41467-019-12920-0) | |
 
+
+## RNA-RNA interaction prediction
+
+### 2026
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2026 Nat. Commun.** | **The role of low-complexity repeats in RNA–RNA interactions and a deep learning framework for duplex prediction** | [Paper](https://www.nature.com/articles/s41467-026-68356-w) | **RIME** links large-scale RRI data analysis with a language-model-based predictor for RNA–RNA duplex prediction, highlighting the importance of low-complexity repeats. |
+| **2026 Bioinformatics** | **DeepLMI: Deep Feature Mining with a Globally Enhanced Graph Convolutional Network for Robust lncRNA–miRNA Interaction Prediction** | [Paper](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag145/8541986) | **DeepLMI** combines deep feature mining with a globally enhanced GCN to improve robustness in lncRNA–miRNA interaction prediction. |
+| **2026 Front. Artif. Intell.** | **Computational understanding of non-coding RNA pairwise interactions** | [Paper](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1749205/full) | **CUPID** predicts ncRNA–ncRNA interactions directly from primary sequences using a deep learning framework oriented toward pairwise ncRNA interaction discovery. |
+| **2026 Bioinform. Adv.** | **MiRInter-Trans: a Transformer-Based Framework for microRNA Interaction Prediction** | [Paper](https://academic.oup.com/bioinformaticsadvances/advance-article/doi/10.1093/bioadv/vbag073/8512506) | **MiRInter-Trans** uses RNA foundation-model embeddings and a Transformer-style pipeline to predict miRNA interactions from sequence alone across multiple RNA-partner types. |
+| **2026 J. Chem. Inf. Model.** | **HetGAT-LMI: Interpretable Heterogeneous Graph Attention Method for Predicting lncRNA-miRNA Interactions** | [Paper](https://pubs.acs.org/doi/10.1021/acs.jcim.5c02664) | **HetGAT-LMI** builds an interpretable heterogeneous graph attention model for lncRNA–miRNA interaction prediction and emphasizes graph-level explainability. |
+
+### 2025
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2025 Brief. Bioinform.** | **BioLLMNet: enhancing RNA-interaction prediction with a specialized cross-LLM transformation network** | [Paper](https://academic.oup.com/bib/article/26/5/bbaf549/8303308) | **BioLLMNet** is a unified sequence-only framework that predicts RNA interactions with proteins, small molecules, and other RNAs using pretrained biological language models. |
+| **2025 Brief. Bioinform.** | **Introducing TEC-LncMir for prediction of lncRNA-miRNA interactions through deep learning of RNA sequences** | [Paper](https://academic.oup.com/bib/article/26/1/bbaf046/8006248) | **TEC-LncMir** treats lncRNA and miRNA sequences as language-like inputs and combines Transformer encoders with CNNs for sequence-driven interaction prediction. |
+| **2025 Brief. Bioinform.** | **Enhancing LncRNA-miRNA interaction prediction with multimodal contrastive representation learning** | [Paper](https://academic.oup.com/bib/article/26/3/bbaf281/8164224) | **MCRLMI** integrates multi-source similarity information and sequence encodings through multimodal contrastive learning for improved lncRNA–miRNA interaction prediction. |
+| **2025 Bioinformatics** | **Benchmarking the methods for predicting base pairs in RNA-RNA interactions** | [Paper](https://academic.oup.com/bioinformatics/article/41/6/btaf289/8125807) | This study benchmarks 23 methods for base-pair prediction in RNA–RNA interactions and highlights the strong zero-shot performance of deep-learning-based approaches. |
+| **2025 Int. J. Biol. Macromol.** | **LncRNA-miRNA interaction prediction based on multi-source heterogeneous graph neural network and multi-level attention mechanism** | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0141813025061690) | **LMI-MM** integrates multi-source heterogeneous networks, sequence-derived attributes, and multi-level attention for lncRNA–miRNA interaction prediction. |
+| **2025 Int. J. Biol. Macromol.** | **A rapid prediction model for MiRNA-LncRNA interactions utilizing multi-view projection fusion and random parallel matrix factorization** | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0141813025059598) | **MVPFDPC** emphasizes fast and accurate miRNA–lncRNA interaction prediction through multi-view projection fusion and matrix-factorization-style modeling. |
+
+### 2024
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2024 Brief. Bioinform.** | **A Hitchhiker's guide to RNA–RNA structure and interaction prediction tools** | [Paper](https://academic.oup.com/bib/article/25/1/bbad421/7457347) | A broad review of RNA–RNA structure and interaction prediction tools, covering thermodynamics-based and comparative approaches as well as practical tool selection. |
+| **2024 Methods Mol. Biol.** | **How to do RNA-RNA Interaction Prediction? A Use-Case Driven Handbook Using IntaRNA** | [Paper](https://link.springer.com/chapter/10.1007/978-1-0716-3519-3_9) | A practical handbook for applying **IntaRNA** to different RNA–RNA interaction prediction scenarios, with emphasis on accessibility-based prediction strategies. |
+| **2024 Comput. Struct. Biotechnol. J.** | **A heterogeneous information network learning model with neighborhood-level structural representation for predicting lncRNA-miRNA interactions** | [Paper](https://www.sciencedirect.com/science/article/pii/S2001037024002265) | **HINLMI** integrates heterogeneous biological knowledge and neighborhood-level structural representation learning for lncRNA–miRNA interaction prediction. |
+| **2024 J. Cell. Mol. Med.** | **LncRNA–miRNA interactions prediction based on meta-path similarity and Gaussian kernel similarity** | [Paper](https://onlinelibrary.wiley.com/doi/full/10.1111/jcmm.18590) | **MPGK-LMI** combines meta-path similarity, Gaussian kernel similarity, and graph attention to model lncRNA–miRNA interactions more effectively. |
+
+### 2023
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2023 IEEE/ACM Trans. Comput. Biol. Bioinform.** | **A Survey of Computational Methods and Databases for lncRNA-MiRNA Interaction Prediction** | [Paper](https://doi.org/10.1109/TCBB.2023.3264254) | A focused survey of computational methods, databases, and evaluation strategies for lncRNA–miRNA interaction prediction. |
+| **2023 Methods Mol. Biol.** | **Web Services for RNA-RNA Interaction Prediction** | [Paper](https://link.springer.com/protocol/10.1007/978-1-0716-2768-6_11) | A review of web services for RNA–RNA interaction prediction, including general-purpose tools, class-specific tools, and RNA-design-oriented services. |
+| **2023 BMC Bioinformatics** | **GKLOMLI: a link prediction model for inferring miRNA–lncRNA interactions by using Gaussian kernel-based method on network profile and linear optimization algorithm** | [Paper](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05309-w) | **GKLOMLI** formulates miRNA–lncRNA interaction discovery as a link-prediction problem using Gaussian-kernel similarity and linear optimization. |
+| **2023 Interdiscip. Sci. Comput. Life Sci.** | **PmliHFM: Predicting Plant miRNA-lncRNA Interactions with Hybrid Feature Mining Network** | [Paper](https://pubmed.ncbi.nlm.nih.gov/36223068/) | **PmliHFM** is a plant-focused predictor that uses hybrid feature mining to capture interaction-relevant patterns from miRNA and lncRNA sequences. |
+| **2023 IEEE Trans. Nanobiosci.** | **Predicting Plant miRNA-lncRNA Interactions via a Deep Learning Method** | [Paper](https://pubmed.ncbi.nlm.nih.gov/37167036/) | **PmlIPM** is a deep learning framework for plant miRNA–lncRNA interaction prediction, designed for species-specific RNA regulatory analysis. |
+
+### 2022
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2022 Symmetry** | **Recent Deep Learning Methodology Development for RNA–RNA Interaction Prediction** | [Paper](https://www.mdpi.com/2073-8994/14/7/1302) | A review of recent deep learning methodology for RNA–RNA interaction prediction, with particular attention to miRNA–mRNA and lncRNA–miRNA tasks. |
+| **2022 Brief. Bioinform.** | **ncRNAInter: a novel strategy based on graph neural network to discover interactions between lncRNA and miRNA** | [Paper](https://academic.oup.com/bib/article/23/6/bbac411/6770397) | **ncRNAInter** uses graph neural networks and a comprehensive RNA representation strategy to identify lncRNA–miRNA interactions. |
+| **2022 Brief. Bioinform.** | **Predicting the potential human lncRNA–miRNA interactions based on graph convolution network with conditional random field** | [Paper](https://academic.oup.com/bib/article/23/6/bbac463/6775599) | **GCNCRF** combines graph convolution with conditional random fields to model human lncRNA–miRNA interaction networks. |
+| **2022 IEEE/ACM Trans. Comput. Biol. Bioinform.** | **MD-MLI: Prediction of miRNA–lncRNA Interaction by Using Multiple Features and Hierarchical Deep Learning** | [Paper](https://www.computer.org/csdl/journal/tb/2022/03/09246277/1olDhDAvx5u) | **MD-MLI** uses hierarchical deep learning and multiple feature sources to improve miRNA–lncRNA interaction prediction. |
+| **2022 Interdiscip. Sci. Comput. Life Sci.** | **BoT-Net: a lightweight bag of tricks-based neural network for efficient LncRNA-miRNA interaction prediction** | [Paper](https://link.springer.com/article/10.1007/s12539-022-00535-x) | **BoT-Net** is a lightweight sequence-based model that focuses on informative subsequences to improve efficiency and generalization in lncRNA–miRNA interaction prediction. |
+
 </details>

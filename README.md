@@ -15,7 +15,7 @@ This repository serves as a literature survey and reference library for **RNA-re
 
 3.  [RNA-Protein Interaction Prediction](#rna-protein-interaction-prediction)
 
-
+4.  [RNA-RNA Interaction Prediction](#rna-rna-interaction-prediction)
 
 ---
 

@@ -123,17 +123,41 @@ This repository serves as a literature survey and reference library for **RNA-re
 <details open>
 <summary><b>View Papers (Click to Expand)</b></summary>
 
+### 2026 
 | Year & Venue | Title | Links | Description |
 | :--- | :--- | :--- | :--- |
-| **2021 Bioinformatics**| **Recognition of small molecule–RNA binding sites using RNA sequence and structure**| [Paper](https://academic.oup.com/bioinformatics/article/37/1/36/6069564) |
-| **2023 BIB**| **RLBind: a deep learning method to predict RNA–ligand binding sites**| [Paper](https://academic.oup.com/bib/article/24/1/bbac486/6832814) |
-| **2022 Nature Reviews Drug Discovery**| **Targeting RNA structures with small molecules**| [Paper](https://www.nature.com/articles/s41573-022-00521-4) | review |
-| **2018 Nature Reviews Drug Discovery**| **Principles for targeting RNA with drug-like small molecules**| [Paper](https://www.nature.com/articles/nrd.2018.93) | review |
+
+### 2025
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
 | **2025 NCS**| **What’s so hard about RNA-targeting drug discovery?**| [Paper](https://www.nature.com/articles/s43588-025-00853-2) |
 | **2025 JMB**| **Identifying RNA-small Molecule Binding Sites Using Geometric Deep Learning with Language Models**| [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0022283625000762) | benchmark |
 | **2025 Briefings in Bioinformatics** | **MVRBind: multi-view learning for RNA-small molecule binding site prediction** | [Paper](https://academic.oup.com/bib/article/26/5/bbaf489/8260790) | MVRBind：采用多视图学习框架整合多维特征，专门用于高精度预测 RNA 上的小分子结合位点。 |
 | **2025 Nature Computational Science** | **RNA–ligand interaction scoring via data perturbation and augmentation modeling** | [Paper](https://www.nature.com/articles/s43588-025-00820-x) | (RNAsmol) 通过数据扰动与增强建模优化亲和力打分，系统性解决了小分子-RNA 交互数据稀缺的问题。 |
+
+
+
+### 2024
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
 | **2024 Nature Communications** | **sChemNET: a deep learning framework for predicting small molecules targeting microRNA function** | [Paper](https://www.nature.com/articles/s41467-024-49813-w) |
+
+
+
+
+### 2023 
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2023 BIB**| **RLBind: a deep learning method to predict RNA–ligand binding sites**| [Paper](https://academic.oup.com/bib/article/24/1/bbac486/6832814) |
+
+
+### 2022 and Earlier 
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2022 Nature Reviews Drug Discovery**| **Targeting RNA structures with small molecules**| [Paper](https://www.nature.com/articles/s41573-022-00521-4) | review |
+| **2021 Bioinformatics**| **Recognition of small molecule–RNA binding sites using RNA sequence and structure**| [Paper](https://academic.oup.com/bioinformatics/article/37/1/36/6069564) |
+| **2018 Nature Reviews Drug Discovery**| **Principles for targeting RNA with drug-like small molecules**| [Paper](https://www.nature.com/articles/nrd.2018.93) | review |
+
 </details>
 
 
@@ -191,10 +215,5 @@ This repository serves as a literature survey and reference library for **RNA-re
 | **2020 NAR**| **DeepCLIP: predicting the effect of mutations on protein–RNA binding with deep learning**| [Paper](https://doi.org/10.1093/nar/gkaa530) | |
 | **2019 Nature Methods**| **Methods to study RNA–protein interactions**| [Paper](https://www.nature.com/articles/s41592-019-0330-1) | review |
 | **2019 NC**| **A deep learning framework to predict binding preference of RNA constituents on protein surface**| [Paper](https://www.nature.com/articles/s41467-019-12920-0) | |
-
-
-
-
-
 
 </details>

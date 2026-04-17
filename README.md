@@ -159,7 +159,6 @@ This repository serves as a literature survey and reference library for **RNA-re
 | **2022 Bioinformatics Advances**| **Prediction of RNA–protein interactions using a nucleotide language model**| [Paper](https://doi.org/10.1093/bioadv/vbac023) | |
 | **2021 BIB**| **DeepDISOBind: accurate prediction of RNA-, DNA- and protein-binding intrinsically disordered residues with deep multi-task learning**| [Paper](https://doi.org/10.1093/bib/bbab521) | |
 | **2023 BIB**| **A systematic benchmark of machine learning methods for protein–RNA interaction prediction**| [Paper](https://doi.org/10.1093/bib/bbad307) | |
-[Paper](https://doi.org/10.1093/bib/bbab521) | |
 | **2023 Computational and Structural Biotechnology Journal**| **ncRPI-LGAT: Prediction of ncRNA-protein interactions with line graph attention network framework**| [Paper](https://www.sciencedirect.com/science/article/pii/S2001037023001241) | |
 | **2024 NAR**| **Prediction of protein-RNA interactions from single-cell transcriptomic data**| [Paper](https://doi.org/10.1093/nar/gkae076) | |
 | **2024 IJBM**| **PRA-Pred: Structure-based prediction of protein-RNA binding affinity**| [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0141813024002939) | |

@@ -41,7 +41,6 @@ This repository serves as a literature survey and reference library for **RNA-re
 | **2024 BIB**| **Self-supervised learning on millions of primary RNA sequences from 72 vertebrates improves sequence-based RNA splicing prediction**| [Paper](https://academic.oup.com/bib/article/25/3/bbae163/7644137) |
 | **2024 Nature Machine Intelligence**|  **Multi-purpose RNA language modelling with motif-aware pretraining and type-guided fine-tuning** | [Paper](https://www.nature.com/articles/s42256-024-00836-4) |
 | **2018 Bioinformatics**|  **Convolutional neural networks for classification of alignments of non-coding RNA sequences** | [Paper](https://doi.org/10.1093/bioinformatics/bty228) |
-| **2025 科学技术与工程**|  **基于四元数的 RNA 特征提取方法.** | [Paper](http://dx.doi.org/10.12404/j.issn.1671-1815.2408787) |
 | **2025 Bioinformatics**|  **From nucleotides to numbers: a comprehensive review of RNA feature extraction methods for computational modelling** | [Paper](https://doi.org/10.1093/bib/bbaf701) |  review |
 | **2023 bioRxiv** | **Multiple sequence-alignment-based RNA language model and its application to structural inference** | [Paper](https://www.biorxiv.org/content/10.1101/2023.03.15.532863v1) | 基于多序列比对(MSA)的模型，引入进化保守性信息提升结构预测精度。 |
 | **2024 bioRxiv** | **DGRNA: a long-context RNA foundation model with bidirectional attention Mamba2** | [Paper](https://www.biorxiv.org/content/10.1101/2024.10.31.621427v1) | 采用Mamba 架构替代 Transformer，解决了超长 RNA 序列处理的计算瓶颈。 |

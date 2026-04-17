@@ -143,32 +143,18 @@ This repository serves as a literature survey and reference library for **RNA-re
 <details open>
 <summary><b>View Papers (Click to Expand)</b></summary>
 
-#### 2026 
+### 2026 
 | Year & Venue | Title | Links | Description |
 | :--- | :--- | :--- | :--- |
 | **2026 bioRxiv**| **Augmented prediction of multi-species protein–RNA interactions using evolutionary conservation of RNA-binding proteins**| [Paper](https://www.biorxiv.org/content/10.1101/2025.09.27.678913v2.abstract) | |
 | **2026 arXiv**| **ZeroFold: Protein-RNA Binding Affinity Predictions from Pre-Structural Embeddings**| [Paper](https://arxiv.org/abs/2603.23583) | |
 
-
+### 2025
 | Year & Venue | Title | Links | Description |
 | :--- | :--- | :--- | :--- |
-| **2020 Cell**| **How RNA-Binding Proteins Interact with RNA: Molecules and Mechanisms**| [Paper](https://www.cell.com/molecular-cell/fulltext/S1097-2765(20)30159-3) | review |
-| **2019 Nature Methods**| **Methods to study RNA–protein interactions**| [Paper](https://www.nature.com/articles/s41592-019-0330-1) | review |
 | **2025 Communications Biology**| **RNA-protein interaction prediction using network-guided deep learning**| [Paper](https://www.nature.com/articles/s42003-025-07694-9)  | |
 | **2025 Interdiscip Sci Comput Life Sci**| **NPI-HGNN: A Heterogeneous Graph Neural Network-Based Approach for Predicting ncRNA-Protein Interactions**| [Paper](https://link.springer.com/article/10.1007/s12539-025-00689-4#citeas)  | |
-| **2022 BIB**| **Predicting potential interactions between lncRNAs and proteins via combined graph auto-encoder methods**| [Paper](https://doi.org/10.1093/bib/bbac527) | ||
-| **2023 Computers in Biology and Medicine**| **MHAM-NPI: Predicting ncRNA-protein interactions based on multi-head attention mechanism**| [Paper](https://www.sciencedirect.com/science/article/abs/pii/S001048252300608X) |  || 
-| **2024 Computational and Structural Biotechnology Journal**| **RNA-protein interaction prediction without high-throughput data: An overview and benchmark of in silico tools**| [Paper](https://www.sciencedirect.com/science/article/pii/S2001037024003866) | review |
 | **2025 TNNLS**| **RPI-GGCN: Prediction of RNA–Protein Interaction Based on Interpretability Gated Graph Convolution Neural Network and Co-Regularized Variational Autoencoders**| [Paper](https://ieeexplore.ieee.org/abstract/document/10520920) | |
-| **2019 NC**| **A deep learning framework to predict binding preference of RNA constituents on protein surface**| [Paper](https://www.nature.com/articles/s41467-019-12920-0) | |
-| **2020 NAR**| **DeepCLIP: predicting the effect of mutations on protein–RNA binding with deep learning**| [Paper](https://doi.org/10.1093/nar/gkaa530) | |
-| **2021 BIB**| **Protein–RNA interaction prediction with deep learning: structure matters**| [Paper](https://doi.org/10.1093/bib/bbab540) | |
-| **2022 Bioinformatics Advances**| **Prediction of RNA–protein interactions using a nucleotide language model**| [Paper](https://doi.org/10.1093/bioadv/vbac023) | |
-| **2021 BIB**| **DeepDISOBind: accurate prediction of RNA-, DNA- and protein-binding intrinsically disordered residues with deep multi-task learning**| [Paper](https://doi.org/10.1093/bib/bbab521) | |
-| **2023 BIB**| **A systematic benchmark of machine learning methods for protein–RNA interaction prediction**| [Paper](https://doi.org/10.1093/bib/bbad307) | |
-| **2023 Computational and Structural Biotechnology Journal**| **ncRPI-LGAT: Prediction of ncRNA-protein interactions with line graph attention network framework**| [Paper](https://www.sciencedirect.com/science/article/pii/S2001037023001241) | |
-| **2024 NAR**| **Prediction of protein-RNA interactions from single-cell transcriptomic data**| [Paper](https://doi.org/10.1093/nar/gkae076) | |
-| **2024 IJBM**| **PRA-Pred: Structure-based prediction of protein-RNA binding affinity**| [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0141813024002939) | |
 | **2025 Communications Biology**| **PRA-Pred: Structure-based prediction of protein-RNA binding affinity**| [Paper](https://www.nature.com/articles/s42003-025-07694-9) | |
 | **2025 BIB**| **Graph-RPI: predicting RNA–protein interactions via graph autoencoder and self-supervised learning strategies**| [Paper](https://doi.org/10.1093/bib/bbaf292) | |
 | **2025 Communications Biology**| **PaRPI predicts RNA-Protein interactions from cross-protocol and cross-batch RNA-binding protein datasets**| [Paper](https://www.nature.com/articles/s42003-025-08807-0) | |
@@ -177,6 +163,37 @@ This repository serves as a literature survey and reference library for **RNA-re
 | **2025 JCIM**| **SeqMG-RPI: A Sequence-Based Framework Integrating Multi-Scale RNA Features and Protein Graphs for RNA-Protein Interaction Prediction**| [Paper](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.5c00176) | |
 | **2025 Patterns**| **A deep learning model for characterizing protein-RNA interactions from sequences at single-base resolution**| [Paper](https://www.cell.com/patterns/fulltext/S2666-3899(24)00322-2) | |
 | **2025 NAR**| **Base-resolution binding profile prediction of proteins on RNAs with deep learning**| [Paper](https://doi.org/10.1093/nar/gkaf748) | |
+
+
+### 2024
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2024 Computational and Structural Biotechnology Journal**| **RNA-protein interaction prediction without high-throughput data: An overview and benchmark of in silico tools**| [Paper](https://www.sciencedirect.com/science/article/pii/S2001037024003866) | review |
+| **2024 NAR**| **Prediction of protein-RNA interactions from single-cell transcriptomic data**| [Paper](https://doi.org/10.1093/nar/gkae076) | |
+| **2024 IJBM**| **PRA-Pred: Structure-based prediction of protein-RNA binding affinity**| [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0141813024002939) | |
+
+
+### 2023
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2023 Computers in Biology and Medicine**| **MHAM-NPI: Predicting ncRNA-protein interactions based on multi-head attention mechanism**| [Paper](https://www.sciencedirect.com/science/article/abs/pii/S001048252300608X) |  || 
+| **2023 BIB**| **A systematic benchmark of machine learning methods for protein–RNA interaction prediction**| [Paper](https://doi.org/10.1093/bib/bbad307) | |
+| **2023 Computational and Structural Biotechnology Journal**| **ncRPI-LGAT: Prediction of ncRNA-protein interactions with line graph attention network framework**| [Paper](https://www.sciencedirect.com/science/article/pii/S2001037023001241) | |
+
+### 2022 and Earlier
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2022 BIB**| **Predicting potential interactions between lncRNAs and proteins via combined graph auto-encoder methods**| [Paper](https://doi.org/10.1093/bib/bbac527) | ||
+| **2022 Bioinformatics Advances**| **Prediction of RNA–protein interactions using a nucleotide language model**| [Paper](https://doi.org/10.1093/bioadv/vbac023) | |
+| **2021 BIB**| **DeepDISOBind: accurate prediction of RNA-, DNA- and protein-binding intrinsically disordered residues with deep multi-task learning**| [Paper](https://doi.org/10.1093/bib/bbab521) | |
+| **2021 BIB**| **Protein–RNA interaction prediction with deep learning: structure matters**| [Paper](https://doi.org/10.1093/bib/bbab540) | |
+| **2020 Cell**| **How RNA-Binding Proteins Interact with RNA: Molecules and Mechanisms**| [Paper](https://www.cell.com/molecular-cell/fulltext/S1097-2765(20)30159-3) | review |
+| **2020 NAR**| **DeepCLIP: predicting the effect of mutations on protein–RNA binding with deep learning**| [Paper](https://doi.org/10.1093/nar/gkaa530) | |
+| **2019 Nature Methods**| **Methods to study RNA–protein interactions**| [Paper](https://www.nature.com/articles/s41592-019-0330-1) | review |
+| **2019 NC**| **A deep learning framework to predict binding preference of RNA constituents on protein surface**| [Paper](https://www.nature.com/articles/s41467-019-12920-0) | |
+
+
+
 
 
 

@@ -419,3 +419,63 @@ This repository serves as a literature survey and reference library for **RNA-re
 | **2023 Nucleic Acids Res.** | **NPInter v5.0: ncRNA interaction database in a new era** | [Paper](https://academic.oup.com/nar/article/51/D1/D232/6827104) | Supports the recommendation to distinguish physical interaction prediction from broader association-style prediction tasks. |
 
 </details>
+
+
+## Unified RNA Models
+
+> Representative references organized into three broad categories.
+
+## 1. Unified Trends
+
+<details open>
+<summary><b>View Papers (Click to Expand)</b></summary>
+
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2025 Nat. Mach. Intell.** | **Generalized biological foundation model with unified nucleic acid and protein language** | [Paper](https://www.nature.com/articles/s42256-025-01044-4) | **LucaOne** is an important early example of unified biological sequence modeling across nucleic acids and proteins, supporting the idea of shared pretrained backbones. |
+| **2025 Brief. Bioinform.** | **BioLLMNet: enhancing RNA-interaction prediction with a specialized cross-LLM transformation network** | [Paper](https://academic.oup.com/bib/article/26/5/bbaf549/8303308) | **BioLLMNet** is a clear RNA-centric unification attempt, using one framework to support RNA–protein, RNA–small molecule, and RNA–RNA interaction prediction. |
+| **2024 Nature** | **Accurate structure prediction of biomolecular interactions with AlphaFold 3** | [Paper](https://www.nature.com/articles/s41586-024-07487-w) | **AlphaFold 3** demonstrates that a single biomolecular architecture can jointly model proteins, nucleic acids, ligands, ions, and modified residues. |
+| **2025 Nat. Commun.** | **RiNALMo: general-purpose RNA language models can generalize well on structure prediction tasks** | [Paper](https://www.nature.com/articles/s41467-025-60872-5) | **RiNALMo** supports the trend toward general-purpose RNA backbones that transfer across multiple structure-related downstream tasks. |
+| **2025 Nat. Commun.** | **ERNIE-RNA: an RNA language model with structure-enhanced representations** | [Paper](https://www.nature.com/articles/s41467-025-64972-0) | **ERNIE-RNA** integrates structural priors into RNA language modeling and is highly relevant to unified RNA representation learning. |
+| **2026 Nat. Methods** | **Orthrus: toward evolutionary and functional RNA foundation models** | [Paper](https://www.nature.com/articles/s41592-026-03064-3) | **Orthrus** represents a newer stage of RNA foundation modeling aimed at jointly capturing evolutionary and functional RNA signals. |
+| **2026 RNA Biol.** | **AI foundation models for RNA biology** | [Paper](https://www.tandfonline.com/doi/full/10.1080/15476286.2026.2650517) | This review summarizes how RNA foundation models are starting to function as general backbones for diverse RNA biology tasks. |
+
+</details>
+
+## 2. Main Barriers
+
+<details open>
+<summary><b>View Papers (Click to Expand)</b></summary>
+
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2026 Brief. Bioinform.** | **Zero-shot benchmarking of RNA language models in structural, functional and evolutionary learning** | [Paper](https://academic.oup.com/bib/article/27/2/bbag098/8509095) | This benchmark shows that current RNA language models still have uneven strengths across structural, functional, and evolutionary tasks, limiting true unification. |
+| **2025 Nat. Commun.** | **Benchmarking pre-trained genomic language models for RNA sequence-related predictive applications** | [Paper](https://www.nature.com/articles/s41467-025-66899-y) | This study highlights the persistence of heterogeneous task definitions and inconsistent downstream supervision in RNA-related prediction. |
+| **2025 Nat. Commun.** | **Benchmarking all-atom biomolecular structure prediction with FoldBench** | [Paper](https://www.nature.com/articles/s41467-025-67127-3) | **FoldBench** shows that nucleic acids remain especially challenging for all-atom prediction, underscoring RNA structural uncertainty and flexibility. |
+| **2024 Comput. Struct. Biotechnol. J.** | **RNA-protein interaction prediction without high-throughput data: An overview and benchmark of in silico tools** | [Paper](https://www.sciencedirect.com/science/article/pii/S2001037024003866) | This benchmark is useful for discussing fragmented evaluation standards, inconsistent inputs, and varying output definitions in RNA–protein prediction. |
+| **2025 Bioinformatics** | **Benchmarking the methods for predicting base pairs in RNA-RNA interactions** | [Paper](https://academic.oup.com/bioinformatics/article/41/6/btaf289/8125807) | This paper directly illustrates the fragmentation of RNA–RNA benchmarks and how stricter evaluation can change the ranking of methods. |
+| **2022 WIREs Comput. Mol. Sci.** | **RNA-ligand molecular docking: advances and challenges** | [Paper](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1571) | This review is a key reference for discussing static-structure assumptions, insufficient treatment of flexibility, and incomplete thermodynamic and kinetic modeling. |
+| **2025 Nat. Comput. Sci.** | **What’s so hard about RNA-targeting drug discovery?** | [Paper](https://www.nature.com/articles/s43588-025-00853-2) | This perspective captures major translational bottlenecks such as sparse data, unstable supervision, and the lack of standardized benchmarks. |
+| **2025 Curr. Opin. Struct. Biol.** | **Foundation models of protein sequences: A brief overview** | [Paper](https://www.sciencedirect.com/science/article/pii/S0959440X25000223) | This review is useful for contrast, showing how protein modeling already has a more mature and coherent foundation-model ecosystem than RNA. |
+| **2025 Curr. Opin. Struct. Biol.** | **Are protein language models the new universal key?** | [Paper](https://www.sciencedirect.com/science/article/pii/S0959440X25000156) | This paper helps explain the gap between RNA and protein fields by showing how protein language models have become broadly reusable across tasks. |
+
+</details>
+
+## 3. Future Directions
+
+<details open>
+<summary><b>View Papers (Click to Expand)</b></summary>
+
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2025 Nat. Mach. Intell.** | **Generalized biological foundation model with unified nucleic acid and protein language** | [Paper](https://www.nature.com/articles/s42256-025-01044-4) | **LucaOne** is a useful reference when arguing for shared pretrained backbones as the foundation of unified RNA interaction architectures. |
+| **2025 Nat. Commun.** | **ERNIE-RNA: an RNA language model with structure-enhanced representations** | [Paper](https://www.nature.com/articles/s41467-025-64972-0) | **ERNIE-RNA** supports the view that unified RNA models should combine sequence learning with explicit structure-aware inductive bias. |
+| **2024 Nat. Mach. Intell.** | **An interpretable RNA foundation model for exploring functional RNA motifs in plants** | [Paper](https://www.nature.com/articles/s42256-024-00946-z) | **PlantRNA-FM** is relevant for the blueprint because it connects foundation modeling with interpretability and motif-level mechanistic insight. |
+| **2025 Brief. Bioinform.** | **BioLLMNet: enhancing RNA-interaction prediction with a specialized cross-LLM transformation network** | [Paper](https://academic.oup.com/bib/article/26/5/bbaf549/8303308) | **BioLLMNet** is especially useful for motivating partner-modality fusion and multi-head RNA interaction prediction within one architecture. |
+| **2026 Nat. Biotechnol.** | **Predicting small molecule–RNA interactions without RNA tertiary structures** | [Paper](https://www.nature.com/articles/s41587-025-02942-z) | **SMRTnet** supports the idea that future unified models should remain useful even when high-quality RNA tertiary structures are unavailable. |
+| **2024 Nat. Methods** | **Accurate RNA 3D structure prediction using a language model-based deep learning approach** | [Paper](https://www.nature.com/articles/s41592-024-02487-0) | **RhoFold+** is an important reference for structure-generation heads in unified RNA pipelines. |
+| **2025 Nat. Comput. Sci.** | **RNA–ligand interaction scoring via data perturbation and augmentation modeling** | [Paper](https://www.nature.com/articles/s43588-025-00820-x) | **RNAsmol** is highly relevant for task-specific heads such as ranking and scoring in unified RNA-targeted screening workflows. |
+| **2024 Nat. Commun.** | **Identifying small-molecules binding sites in RNA conformational ensembles with SHAMAN** | [Paper](https://www.nature.com/articles/s41467-024-49638-7) | **SHAMAN** is a strong reference for dynamic and ensemble-aware modeling, an important direction for future unified RNA frameworks. |
+| **2026 RNA Biol.** | **AI foundation models for RNA biology** | [Paper](https://www.tandfonline.com/doi/full/10.1080/15476286.2026.2650517) | This review is useful for summarizing future directions such as larger RNA foundation models, multimodal supervision, interpretability, and design-oriented applications. |
+
+</details>

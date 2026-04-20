@@ -116,6 +116,54 @@ This repository serves as a literature survey and reference library for **RNA-re
 </details>
 
 
+## A Task-Oriented View of Intermolecular RNA Interaction Prediction
+
+<details open>
+<summary><b>View Papers (Click to Expand)</b></summary>
+
+### 2.1 Interaction types: RNA-RNA, RNA-protein, RNA-small molecule
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2025 Brief. Bioinform.** | **BioLLMNet: enhancing RNA-interaction prediction with a specialized cross-LLM transformation network** | [Paper](https://academic.oup.com/bib/article/26/5/bbaf549/8303308) | **BioLLMNet** is a useful chapter-opening reference because it explicitly treats RNA–protein, RNA–small molecule, and RNA–RNA prediction within one sequence-only framework. |
+| **2022 Brief. Bioinform.** | **Protein-RNA interaction prediction with deep learning: structure matters** | [Paper](https://academic.oup.com/bib/article/23/1/bbab540/6470965) | A focused review of protein–RNA interaction prediction that helps define the RNA–protein branch of the chapter and distinguishes site and preference prediction settings. |
+| **2024 Brief. Bioinform.** | **A Hitchhiker's guide to RNA–RNA structure and interaction prediction tools** | [Paper](https://academic.oup.com/bib/article/25/1/bbad421/7457347) | A broad review of RNA–RNA structure and interaction prediction that is well suited for defining the RNA–RNA branch of the task space. |
+| **2025 Drug Discov. Today** | **Artificial intelligence for RNA–ligand interaction prediction: advances and prospects** | [Paper](https://www.sciencedirect.com/science/article/pii/S1359644625000790) | A comprehensive review of RNA–ligand prediction that helps define the RNA–small molecule branch, including site prediction, affinity prediction, docking, and screening. |
+| **2022 Nucleic Acids Res.** | **RNAInter v4.0: RNA interactome repository with redefined confidence scoring system and improved accessibility** | [Paper](https://academic.oup.com/nar/article/50/D1/D326/6414580) | **RNAInter** is useful here because it makes explicit that a single repository may contain multiple RNA-centered interaction types under different evidence and confidence schemes. |
+| **2023 Nucleic Acids Res.** | **NPInter v5.0: ncRNA interaction database in a new era** | [Paper](https://academic.oup.com/nar/article/51/D1/D232/6827104) | **NPInter** is a key database reference for emphasizing that RNA-centered “interaction” spans several partner modalities and does not correspond to one single prediction problem. |
+
+### 2.2 Prediction granularities: pair, site, profile, affinity, structure, screening
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2025 Brief. Bioinform.** | **BioLLMNet: enhancing RNA-interaction prediction with a specialized cross-LLM transformation network** | [Paper](https://academic.oup.com/bib/article/26/5/bbaf549/8303308) | **BioLLMNet** is a useful representative of pair-level interaction prediction, where the output is whether an RNA-partner pair is likely to interact. |
+| **2025 J. Mol. Biol.** | **Identifying RNA-small Molecule Binding Sites Using Geometric Deep Learning with Language Models** | [Paper](https://www.sciencedirect.com/science/article/pii/S0022283625000762) | **RNABind** is a representative binding-site prediction paper, where the model outputs local RNA regions or nucleotides likely to bind small molecules. |
+| **2025 Nucleic Acids Res.** | **Base-resolution binding profile prediction of proteins on RNAs with deep learning** | [Paper](https://academic.oup.com/nar/article/53/14/gkaf748/8223173) | **iDeepB** represents profile-style prediction, where the output is a base-resolution binding landscape rather than a single binary label. |
+| **2024 Brief. Bioinform.** | **Reliable method for predicting the binding affinity of RNA-small molecule interactions using machine learning** | [Paper](https://academic.oup.com/bib/article/25/2/bbae002/7584787) | This paper is a clear example of affinity regression, where the goal is to predict quantitative binding strength instead of interaction existence alone. |
+| **2025 Bioinformatics** | **Benchmarking the methods for predicting base pairs in RNA-RNA interactions** | [Paper](https://academic.oup.com/bioinformatics/article/41/6/btaf289/8125807) | This benchmark is useful for illustrating structure-level or duplex-level prediction, where the output concerns intermolecular base pairing rather than pair classification. |
+| **2024 Nat. Methods** | **Accurate RNA 3D structure prediction using a language model-based deep learning approach** | [Paper](https://www.nature.com/articles/s41592-024-02487-0) | **RhoFold+** represents structure generation, where the output is a 3D structural hypothesis rather than a scalar interaction score. |
+| **2025 Nat. Commun.** | **RNAmigos2: accelerated structure-based RNA virtual screening with deep graph learning** | [Paper](https://www.nature.com/articles/s41467-025-57852-0) | **RNAmigos2** is a screening-oriented model in which the output is a ranking over compounds, making it a useful reference for virtual screening as a distinct prediction granularity. |
+
+### 2.3 Supervision semantics: physical interaction, functional association, proxy signal
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2022 Nucleic Acids Res.** | **RNAInter v4.0: RNA interactome repository with redefined confidence scoring system and improved accessibility** | [Paper](https://academic.oup.com/nar/article/50/D1/D326/6414580) | **RNAInter** is a key reference for showing that “interaction” labels may arise from very different evidence types and confidence levels. |
+| **2023 Nucleic Acids Res.** | **NPInter v5.0: ncRNA interaction database in a new era** | [Paper](https://academic.oup.com/nar/article/51/D1/D232/6827104) | **NPInter** is especially useful for emphasizing that many datasets mix direct physical interactions with broader association-style annotations. |
+| **2023 Brief. Bioinform.** | **A systematic benchmark of machine learning methods for protein-RNA interaction prediction** | [Paper](https://academic.oup.com/bib/article/24/5/bbad307/7252289) | This benchmark makes clear that many protein–RNA models are trained on heterogeneous CLIP-derived signals, so supervision often reflects experimental proxy readouts rather than direct physical binding alone. |
+| **2024 Comput. Struct. Biotechnol. J.** | **RNA-protein interaction prediction without high-throughput data: An overview and benchmark of in silico tools** | [Paper](https://www.sciencedirect.com/science/article/pii/S2001037024003866) | This review is useful for contrasting direct sequence/structure-based prediction with proxy-signal-driven models trained on high-throughput datasets. |
+| **2025 Commun. Biol.** | **PaRPI predicts RNA-Protein interactions from cross-protocol and cross-batch RNA-binding protein datasets** | [Paper](https://www.nature.com/articles/s42003-025-08807-0) | **PaRPI** is directly relevant to supervision semantics because it explicitly addresses protocol- and batch-dependent binding signals as a source of supervision inconsistency. |
+| **2025 Patterns** | **A deep learning model for characterizing protein-RNA interactions from sequences at single-base resolution** | [Paper](https://www.sciencedirect.com/science/article/pii/S2666389924003222) | **Reformer** is a useful example of proxy-signal supervision because it learns from eCLIP-style binding profiles, where the target is an experimental signal landscape rather than a pure binary physical interaction label. |
+
+### 2.4 A conceptual map linking task, representation, and evaluation
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2025 Nat. Mach. Intell.** | **Generalized biological foundation model with unified nucleic acid and protein language** | [Paper](https://www.nature.com/articles/s42256-025-01044-4) | **LucaOne** is a strong reference for linking task diversity to shared biological representation learning across RNA, DNA, and proteins. |
+| **2025 Nat. Commun.** | **Benchmarking pre-trained genomic language models for RNA sequence-related predictive applications** | [Paper](https://www.nature.com/articles/s41467-025-66899-y) | This benchmark is highly relevant for showing that representation choice, task formulation, and evaluation setting are tightly coupled in RNA prediction. |
+| **2026 Brief. Bioinform.** | **Zero-shot benchmarking of RNA language models in structural, functional and evolutionary learning** | [Paper](https://academic.oup.com/bib/article/27/2/bbag098/8509095) | This paper provides a compact bridge from task taxonomy to representation analysis by comparing how RNA language models behave across structurally and functionally distinct tasks. |
+| **2025 Brief. Bioinform.** | **BioLLMNet: enhancing RNA-interaction prediction with a specialized cross-LLM transformation network** | [Paper](https://academic.oup.com/bib/article/26/5/bbaf549/8303308) | **BioLLMNet** is a good transition paper because it naturally connects partner modality, backbone representation, and downstream task heads within one conceptual framework. |
+| **2025 Nat. Commun.** | **Data splitting to avoid information leakage with DataSAIL** | [Paper](https://www.nature.com/articles/s41467-025-58606-8) | **DataSAIL** is helpful for the evaluation side of the conceptual map, because it makes clear that task definition and representation cannot be separated from split strategy and generalization assessment. |
+
+</details>
+
+
 ## RNA-Small Molecule Interaction Prediction
 
 <details open>
@@ -479,3 +527,5 @@ This repository serves as a literature survey and reference library for **RNA-re
 | **2026 RNA Biol.** | **AI foundation models for RNA biology** | [Paper](https://www.tandfonline.com/doi/full/10.1080/15476286.2026.2650517) | This review is useful for summarizing future directions such as larger RNA foundation models, multimodal supervision, interpretability, and design-oriented applications. |
 
 </details>
+
+

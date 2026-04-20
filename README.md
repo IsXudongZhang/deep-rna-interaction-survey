@@ -286,3 +286,136 @@ This repository serves as a literature survey and reference library for **RNA-re
 | **2022 Interdiscip. Sci. Comput. Life Sci.** | **BoT-Net: a lightweight bag of tricks-based neural network for efficient LncRNA-miRNA interaction prediction** | [Paper](https://link.springer.com/article/10.1007/s12539-022-00535-x) | **BoT-Net** is a lightweight sequence-based model that focuses on informative subsequences to improve efficiency and generalization in lncRNA–miRNA interaction prediction. |
 
 </details>
+
+
+## Datasets, Benchmarks, and Evaluation Pitfalls
+
+### Data Resources Across Tasks
+
+<details open>
+<summary><b>View Papers (Click to Expand)</b></summary>
+
+#### Sequence / family resources
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2026 Nucleic Acids Res.** | **RNAcentral in 2026: genes and literature integration** | [Paper](https://academic.oup.com/nar/article/54/D1/D303/8382359) | A major integrative resource for RNA sequences, genes, and literature links across RNA classes, useful as a general entry point for sequence-centric tasks. |
+| **2025 Nucleic Acids Res.** | **Rfam 15: RNA families database in 2025** | [Paper](https://academic.oup.com/nar/article/53/D1/D258/7889252) | A core family-level resource for curated RNA families, consensus secondary structures, and alignments, widely used in homology-aware benchmarking. |
+
+#### Structure resources
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2011 Nucleic Acids Res.** | **PRIDB: a protein-RNA interface database** | [Paper](https://pubmed.ncbi.nlm.nih.gov/21071426/) | **PRIDB** provides curated protein–RNA interface annotations and is particularly useful for residue-level and binding-site prediction tasks. |
+| **2014 Nucleic Acids Res.** | **The Nucleic Acid Database: new features and capabilities** | [Paper](https://academic.oup.com/nar/article/42/D1/D114/1070039) | **NDB** is a foundational nucleic-acid structural resource that supports RNA and RNA-complex structure analysis beyond general-purpose structural repositories. |
+
+#### Task-specific interaction resources
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2022 Nucleic Acids Res.** | **RNAInter v4.0: RNA interactome repository with redefined confidence scoring system and improved accessibility** | [Paper](https://academic.oup.com/nar/article/50/D1/D326/6414580) | **RNAInter** is a comprehensive interaction repository spanning RNA–RNA, RNA–protein, RNA–small molecule, and related interaction types with explicit confidence annotations. |
+| **2023 Nucleic Acids Res.** | **NPInter v5.0: ncRNA interaction database in a new era** | [Paper](https://academic.oup.com/nar/article/51/D1/D232/6827104) | **NPInter** is a major ncRNA interaction database covering broad functional and physical interaction annotations across many RNA-centered tasks. |
+| **2023 J. Mol. Biol.** | **R-SIM: A Database of Binding Affinities for RNA-small Molecule Interactions** | [Paper](https://www.sciencedirect.com/science/article/pii/S002228362200540X) | **R-SIM** focuses on quantitative RNA–small molecule binding affinities and is especially relevant for regression and affinity-prediction benchmarks. |
+| **2022 ACS Chem. Biol.** | **R-BIND 2.0: An Updated Database of Bioactive RNA-Targeting Small Molecules and Associated RNA Secondary Structures** | [Paper](https://pubs.acs.org/doi/10.1021/acschembio.2c00224) | **R-BIND 2.0** organizes bioactive RNA-targeting ligands together with associated RNA structural context and is useful for RNA-ligand discovery studies. |
+
+#### Benchmark-oriented resource papers
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2024 J. Mol. Biol.** | **RNA3DB: A structurally-dissimilar dataset split for training and benchmarking deep learning models of RNA structure prediction** | [Paper](https://www.sciencedirect.com/science/article/pii/S0022283624001475) | **RNA3DB** emphasizes structure-dissimilar splits, making it a benchmark-oriented resource for studying leakage-aware evaluation and out-of-distribution generalization. |
+
+</details>
+
+### Evaluation Metrics Across Prediction Settings
+
+<details open>
+<summary><b>View Papers (Click to Expand)</b></summary>
+
+#### Classification metrics
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2015 PLoS One** | **The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets** | [Paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118432) | A classic reference showing why PR curves and AUPRC are often more informative than ROC curves under strong class imbalance. |
+
+#### Regression metrics
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2024 Brief. Bioinform.** | **Reliable method for predicting the binding affinity of RNA-small molecule interactions using machine learning** | [Paper](https://academic.oup.com/bib/article/25/2/bbae002/7584787) | A representative RNA–small molecule affinity-prediction study that reports common regression metrics and discusses robustness across RNA subtypes. |
+| **2024 Int. J. Biol. Macromol.** | **PRA-Pred: Structure-based prediction of protein-RNA binding affinity** | [Paper](https://www.sciencedirect.com/science/article/pii/S0141813024002939) | **PRA-Pred** exemplifies structure-based protein–RNA affinity prediction and is useful when discussing regression settings in interaction modeling. |
+
+#### Structure-level metrics
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2016 PLoS One** | **DockQ: A Quality Measure for Protein-Protein Docking Models** | [Paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0161879) | **DockQ** is a widely used continuous structure-quality metric that can inform RNA-complex evaluation by analogy to docking-style assessment. |
+| **2005 Proteins** | **Assessing predictions of protein-protein interactions: the CAPRI experiment** | [Paper](https://pubmed.ncbi.nlm.nih.gov/15659362/) | The **CAPRI** framework established influential structure-level evaluation criteria such as interface- and RMSD-based assessment. |
+
+#### Virtual screening metrics
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2007 J. Chem. Inf. Model.** | **Evaluating Virtual Screening Methods: Good and Bad Metrics for the "Early Recognition" Problem** | [Paper](https://pubs.acs.org/doi/10.1021/ci600426e) | A classic paper on virtual-screening evaluation, particularly important for early-recognition metrics such as enrichment-oriented assessment. |
+| **2009 BMC Bioinformatics** | **A statistical framework to evaluate virtual screening** | [Paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC2722655/) | A statistical treatment of virtual-screening metrics that is often cited when discussing robust evaluation beyond single-score summaries. |
+
+#### RNA-specific evaluation / benchmark papers
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2025 Bioinformatics** | **Benchmarking the methods for predicting base pairs in RNA-RNA interactions** | [Paper](https://academic.oup.com/bioinformatics/article/41/6/btaf289/8125807) | A dedicated benchmark study for RNA–RNA base-pair prediction that highlights task-specific metric design and the importance of strict evaluation. |
+
+</details>
+
+### Splitting Strategies and the Generalization Problem
+
+<details open>
+<summary><b>View Papers (Click to Expand)</b></summary>
+
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2025 Nat. Commun.** | **Data splitting to avoid information leakage with DataSAIL** | [Paper](https://www.nature.com/articles/s41467-025-58606-8) | **DataSAIL** directly addresses data leakage caused by naive splitting and motivates similarity-aware train/test partitioning. |
+| **2024 J. Mol. Biol.** | **RNA3DB: A structurally-dissimilar dataset split for training and benchmarking deep learning models of RNA structure prediction** | [Paper](https://www.sciencedirect.com/science/article/pii/S0022283624001475) | **RNA3DB** shows how structurally dissimilar splits provide a more realistic picture of model generalization than random splits. |
+| **2025 Bioinformatics** | **Benchmarking the methods for predicting base pairs in RNA-RNA interactions** | [Paper](https://academic.oup.com/bioinformatics/article/41/6/btaf289/8125807) | This benchmark explicitly studies stricter evaluation settings and is useful when arguing that random splits can overestimate RNA–RNA prediction performance. |
+| **2024 Comput. Struct. Biotechnol. J.** | **RNA-protein interaction prediction without high-throughput data: An overview and benchmark of in silico tools** | [Paper](https://www.sciencedirect.com/science/article/pii/S2001037024003866) | A cross-example benchmark that better reflects practical generalization than single-dataset random-split evaluation alone. |
+| **2023 Brief. Bioinform.** | **A systematic benchmark of machine learning methods for protein-RNA interaction prediction** | [Paper](https://academic.oup.com/bib/article/24/5/bbad307/7252289) | A systematic benchmark study that helps illustrate how model performance changes under more realistic and harder generalization settings. |
+
+</details>
+
+### Negative Sampling and Label Quality
+
+<details open>
+<summary><b>View Papers (Click to Expand)</b></summary>
+
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2025 BMC Biol.** | **Negative sampling strategies impact the prediction of scale-free biomolecular network interactions with machine learning** | [Paper](https://link.springer.com/article/10.1186/s12915-025-02231-w) | A highly relevant study showing that benchmark conclusions can be dominated by the negative-sampling protocol in biomolecular interaction prediction. |
+| **2022 Brief. Bioinform.** | **Positive-unlabeled learning in bioinformatics and computational biology: a brief review** | [Paper](https://academic.oup.com/bib/article/23/1/bbab461/6415313) | A concise review explaining why many biological interaction tasks are better viewed as positive-unlabeled problems rather than standard binary classification. |
+| **2023 Inf. Sci.** | **SURE: Screening unlabeled samples for reliable negative samples based on reinforcement learning** | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0020025523001226) | **SURE** provides a representative strategy for identifying reliable negatives from unlabeled data, which is directly relevant to label-quality discussions. |
+
+</details>
+
+### Methodological Blind Spots Across RNA Interaction Prediction
+
+<details open>
+<summary><b>View Papers (Click to Expand)</b></summary>
+
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2022 Brief. Bioinform.** | **Protein-RNA interaction prediction with deep learning: structure matters** | [Paper](https://academic.oup.com/bib/article/23/1/bbab540/6470965) | A broad review emphasizing structural information, dataset limitations, and unresolved methodological challenges in protein–RNA prediction. |
+| **2024 Brief. Bioinform.** | **A Hitchhiker's guide to RNA-RNA structure and interaction prediction tools** | [Paper](https://academic.oup.com/bib/article/25/1/bbad421/7457347) | A comprehensive review of RNA–RNA prediction tools that is especially useful for discussing thermodynamics, accessibility, and methodological boundaries. |
+| **2022 WIREs Comput. Mol. Sci.** | **RNA-ligand molecular docking: advances and challenges** | [Paper](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1571) | A strong reference for blind spots related to static structures, insufficient flexibility modeling, and incomplete treatment of thermodynamics and kinetics. |
+| **2025 Drug Discov. Today** | **Artificial intelligence for RNA-ligand interaction prediction: advances and prospects** | [Paper](https://www.sciencedirect.com/science/article/pii/S1359644625000790) | A review of current AI approaches for RNA–ligand prediction that highlights data scarcity, poor cross-domain transfer, and the lack of unified benchmarks. |
+| **2025 Nat. Comput. Sci.** | **What’s so hard about RNA-targeting drug discovery?** | [Paper](https://www.nature.com/articles/s43588-025-00853-2) | A concise perspective on why RNA-targeting discovery remains difficult, particularly from the standpoint of data, evaluation, and generalization. |
+| **2025 Commun. Biol.** | **RNA-protein interaction prediction using network-guided deep learning** | [Paper](https://www.nature.com/articles/s42003-025-07694-9) | A representative recent model paper that is useful for discussing the gap between benchmark performance and true generalization to unseen molecules. |
+| **2026 Int. J. Mol. Sci.** | **Sequence-Based Models for RNA–Protein Interactions: Imputation Might Be Insufficient for Novel Signal Prediction in eCLIP Data** | [Paper](https://pubmed.ncbi.nlm.nih.gov/41683618/) | This paper directly highlights limited extrapolation and weak novel-signal generalization in sequence-based RNA–protein models. |
+
+</details>
+
+### Recommended Best Practices
+
+<details open>
+<summary><b>View Papers (Click to Expand)</b></summary>
+
+| Year & Venue | Title | Links | Description |
+| :--- | :--- | :--- | :--- |
+| **2025 Nat. Commun.** | **Data splitting to avoid information leakage with DataSAIL** | [Paper](https://www.nature.com/articles/s41467-025-58606-8) | A key reference supporting the recommendation to prioritize leakage-aware and similarity-aware split strategies. |
+| **2015 PLoS One** | **The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets** | [Paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118432) | A foundational reference supporting the recommendation to report PR-based metrics under strong class imbalance. |
+| **2025 BMC Biol.** | **Negative sampling strategies impact the prediction of scale-free biomolecular network interactions with machine learning** | [Paper](https://link.springer.com/article/10.1186/s12915-025-02231-w) | Supports the recommendation to document negative-sampling schemes explicitly and avoid overinterpreting results driven by sampling artifacts. |
+| **2022 Brief. Bioinform.** | **Positive-unlabeled learning in bioinformatics and computational biology: a brief review** | [Paper](https://academic.oup.com/bib/article/23/1/bbab461/6415313) | Supports treating many interaction datasets as partially labeled rather than fully observed binary ground truth. |
+| **2025 Bioinformatics** | **Benchmarking the methods for predicting base pairs in RNA-RNA interactions** | [Paper](https://academic.oup.com/bioinformatics/article/41/6/btaf289/8125807) | Supports the recommendation to evaluate under stricter and task-faithful benchmark settings instead of relying only on optimistic random splits. |
+| **2024 Comput. Struct. Biotechnol. J.** | **RNA-protein interaction prediction without high-throughput data: An overview and benchmark of in silico tools** | [Paper](https://www.sciencedirect.com/science/article/pii/S2001037024003866) | Supports the recommendation to include external case studies or broader cross-example validation when possible. |
+| **2022 Nucleic Acids Res.** | **RNAInter v4.0: RNA interactome repository with redefined confidence scoring system and improved accessibility** | [Paper](https://academic.oup.com/nar/article/50/D1/D326/6414580) | Supports the recommendation to state label provenance clearly and distinguish among interaction definitions across databases. |
+| **2023 Nucleic Acids Res.** | **NPInter v5.0: ncRNA interaction database in a new era** | [Paper](https://academic.oup.com/nar/article/51/D1/D232/6827104) | Supports the recommendation to distinguish physical interaction prediction from broader association-style prediction tasks. |
+
+</details>

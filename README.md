@@ -110,7 +110,6 @@ This repository serves as a literature survey and reference library for **RNA-re
 | **2020 arXiv** | **Molecular representation learning with language models and domain-relevant auxiliary tasks**| [Paper](https://arxiv.org/abs/2011.13230) |
 | **2015 Nature**| **Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning**| [Paper](https://www.nature.com/articles/nbt.3300) |
 | **2010 JCIM**| **Extended-Connectivity Fingerprints**| [Paper](https://pubs.acs.org/doi/10.1021/ci100050t) |
-| **1988** | **SMILES, a chemical language and information system. 1. Introduction to methodology and encoding rules** | [Paper](https://pubs.acs.org/doi/abs/10.1021/ci00057a005) |
 </details>
 
 

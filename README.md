@@ -44,8 +44,8 @@ This repository serves as a literature survey and reference library for **RNA-re
 | **2024 Nature Machine Intelligence**|  **Multi-purpose RNA language modelling with motif-aware pretraining and type-guided fine-tuning** | [Paper](https://www.nature.com/articles/s42256-024-00836-4) |
 | **2018 Bioinformatics**|  **Convolutional neural networks for classification of alignments of non-coding RNA sequences** | [Paper](https://doi.org/10.1093/bioinformatics/bty228) |
 | **2025 Bioinformatics**|  **From nucleotides to numbers: a comprehensive review of RNA feature extraction methods for computational modelling** | [Paper](https://doi.org/10.1093/bib/bbaf701) |  review |
-| **2023 bioRxiv** | **Multiple sequence-alignment-based RNA language model and its application to structural inference** | [Paper](https://www.biorxiv.org/content/10.1101/2023.03.15.532863v1) | 基于多序列比对(MSA)的模型，引入进化保守性信息提升结构预测精度。 |
-| **2024 bioRxiv** | **DGRNA: a long-context RNA foundation model with bidirectional attention Mamba2** | [Paper](https://www.biorxiv.org/content/10.1101/2024.10.31.621427v1) | 采用Mamba 架构替代 Transformer，解决了超长 RNA 序列处理的计算瓶颈。 |
+| **2023 bioRxiv** | **Multiple sequence-alignment-based RNA language model and its application to structural inference** | [Paper](https://www.biorxiv.org/content/10.1101/2023.03.15.532863v1) | Models based on MSA incorporate evolutionary conservation information to improve the accuracy of structure prediction. |
+| **2024 bioRxiv** | **DGRNA: a long-context RNA foundation model with bidirectional attention Mamba2** | [Paper](https://www.biorxiv.org/content/10.1101/2024.10.31.621427v1) | Replacing the Transformer with the Mamba architecture addresses the computational bottleneck in processing ultra-long RNA sequences. |
 </details>
 
 
@@ -62,8 +62,8 @@ This repository serves as a literature survey and reference library for **RNA-re
 | **2022 Nucleic Acids Research** | **UFold: fast and accurate RNA secondary structure prediction with deep learning**|[Paper](https://academic.oup.com/nar/article/50/3/e14/6430845)|
 | **2014 Nature**| **Genome-wide probing of RNA structure reveals active unfolding of mRNA structures in vivo**| [Paper](https://www.nature.com/articles/nature12894) |
 | **2020 Bioinformatics**| **Graph neural representational learning of RNA secondary structures for predicting RNA-protein interactions**| [Paper](https://academic.oup.com/bioinformatics/article/36/Supplement_1/i276/5870515) |
-| **2025 Nature Communications** | **Deep generalizable prediction of RNA secondary structure via base pair motif energy** | [Paper](https://www.nature.com/articles/s41467-025-60048-1) | 引入碱基对基元能量模型，显著提升了深度学习模型在未知 RNA 家族上的泛化预测能力。 |
-| **2024 Communications Biology** | **Accurate prediction of RNA secondary structure including pseudoknots through solving minimum-cost flow with learned potential** | [Paper](https://www.nature.com/articles/s42003-024-05952-w) | 利用最小费用流算法与学习势能函数，实现了包含假结（Pseudoknots）的高精度二级结构预测。 |
+| **2025 Nature Communications** | **Deep generalizable prediction of RNA secondary structure via base pair motif energy** | [Paper](https://www.nature.com/articles/s41467-025-60048-1) | A base-pair motif energy model is introduced to substantially boost the generalization performance of deep learning models on unseen RNA families. |
+| **2024 Communications Biology** | **Accurate prediction of RNA secondary structure including pseudoknots through solving minimum-cost flow with learned potential** | [Paper](https://www.nature.com/articles/s42003-024-05952-w) | High-precision prediction of RNA secondary structures containing pseudoknots is realized via the minimum-cost flow algorithm and learned potential functions. |
 
 </details>
 
